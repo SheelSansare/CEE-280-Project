@@ -1,0 +1,189 @@
+                                                                                     
+                                                                                     
+                                                                                     
+***********   MASTAN2 v5.1.21 (December 1, 2020)   ***********                       
+                                                                                     
+Time:  18:06:52      Date:  07/12/2021                                               
+                                                                                     
+Problem Title:   Frame 3 (Ziemian & Ziemian)                                         
+**************                                                                       
+                                                                                     
+=============================                                                        
+Input for Structural Analysis                                                        
+=============================                                                        
+                                                                                     
+General Information Categories:                                                      
+                                                                                     
+(i)   Number of Nodes = 18                                                           
+(ii)  Number of Elements = 20                                                        
+(iii) Number of Sections = 3                                                         
+(iv)  Number of Materials = 3                                                        
+(v)   Number of Supports = 2                                                         
+(vi)  Applied Loads                                                                  
+                                                                                     
+(i)   Node Information                                                               
+                                                                                     
+  Coordinates                                                                        
+     Node |      X      |      Y      |      Z      |                                
+       1  |  0.0000e+00 |  0.0000e+00 |  0.0000e+00 |                                
+       2  |  1.4400e+02 |  0.0000e+00 |  0.0000e+00 |                                
+       3  |  0.0000e+00 |  2.4000e+01 |  0.0000e+00 |                                
+       4  |  1.4400e+02 |  2.4000e+01 |  0.0000e+00 |                                
+       5  |  0.0000e+00 |  4.8000e+01 |  0.0000e+00 |                                
+       6  |  1.4400e+02 |  4.8000e+01 |  0.0000e+00 |                                
+       7  |  0.0000e+00 |  7.2000e+01 |  0.0000e+00 |                                
+       8  |  1.4400e+02 |  7.2000e+01 |  0.0000e+00 |                                
+       9  |  0.0000e+00 |  9.6000e+01 |  0.0000e+00 |                                
+      10  |  1.4400e+02 |  9.6000e+01 |  0.0000e+00 |                                
+      11  |  0.0000e+00 |  1.2600e+02 |  0.0000e+00 |                                
+      12  |  1.4400e+02 |  1.2600e+02 |  0.0000e+00 |                                
+      13  |  0.0000e+00 |  1.5600e+02 |  0.0000e+00 |                                
+      14  |  1.4400e+02 |  1.5600e+02 |  0.0000e+00 |                                
+      15  |  0.0000e+00 |  1.8600e+02 |  0.0000e+00 |                                
+      16  |  1.4400e+02 |  1.8600e+02 |  0.0000e+00 |                                
+      17  |  0.0000e+00 |  2.1600e+02 |  0.0000e+00 |                                
+      18  |  1.4400e+02 |  2.1600e+02 |  0.0000e+00 |                                
+                                                                                     
+  Fixities                                                                           
+     Node |    X   |    Y   |    Z   |  X Rot |  Y Rot |  Z Rot |                    
+       1  |  FIXED |  FIXED |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       2  |  FIXED |  FIXED |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       3  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       4  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       5  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       6  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       7  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       8  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       9  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      10  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      11  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      12  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      13  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      14  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      15  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      16  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      17  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      18  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+                                                                                     
+(ii)  Element Information                                                            
+                                                                                     
+  Connectivity & Attributes                                                          
+    Element | Node i | Node j |   Length   |  Beta (deg)  | Section | Material |     
+       1    |    9   |   10   | 1.4400e+02 |  0.0000e+00  |    2    |    1     |     
+       2    |   17   |   18   | 1.4400e+02 |  0.0000e+00  |    2    |    1     |     
+       3    |   17   |   10   | 1.8745e+02 |  0.0000e+00  |    3    |    1     |     
+       4    |    9   |   18   | 1.8745e+02 |  0.0000e+00  |    3    |    1     |     
+       5    |    9   |   11   | 3.0000e+01 |  0.0000e+00  |    1    |    1     |     
+       6    |   11   |   13   | 3.0000e+01 |  0.0000e+00  |    1    |    1     |     
+       7    |   13   |   15   | 3.0000e+01 |  0.0000e+00  |    1    |    1     |     
+       8    |   15   |   17   | 3.0000e+01 |  0.0000e+00  |    1    |    1     |     
+       9    |    1   |    3   | 2.4000e+01 |  0.0000e+00  |    1    |    1     |     
+      10    |    3   |    5   | 2.4000e+01 |  0.0000e+00  |    1    |    1     |     
+      11    |    5   |    7   | 2.4000e+01 |  0.0000e+00  |    1    |    1     |     
+      12    |    7   |    9   | 2.4000e+01 |  0.0000e+00  |    1    |    1     |     
+      13    |   10   |   12   | 3.0000e+01 |  0.0000e+00  |    1    |    1     |     
+      14    |   12   |   14   | 3.0000e+01 |  0.0000e+00  |    1    |    1     |     
+      15    |   14   |   16   | 3.0000e+01 |  0.0000e+00  |    1    |    1     |     
+      16    |   16   |   18   | 3.0000e+01 |  0.0000e+00  |    1    |    1     |     
+      17    |    2   |    4   | 2.4000e+01 |  0.0000e+00  |    1    |    1     |     
+      18    |    4   |    6   | 2.4000e+01 |  0.0000e+00  |    1    |    1     |     
+      19    |    6   |    8   | 2.4000e+01 |  0.0000e+00  |    1    |    1     |     
+      20    |    8   |   10   | 2.4000e+01 |  0.0000e+00  |    1    |    1     |     
+                                                                                     
+  Connections                                                                        
+            |               Flexural Stiffness               ||||      Torsion      |
+            |          Node i        ||          Node j        || Warping Restraint |
+    Element |     kz     |     ky     |     kz     |     ky     |  Node i |  Node j |
+       1    |   Pinned   |   Pinned   |   Pinned   |   Pinned   |  Free   |  Free   |
+       2    |   Pinned   |   Pinned   |   Pinned   |   Pinned   |  Free   |  Free   |
+       3    |   Pinned   |   Pinned   |   Pinned   |   Pinned   |  Free   |  Free   |
+       4    |   Pinned   |   Pinned   |   Pinned   |   Pinned   |  Free   |  Free   |
+       5    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       6    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       7    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       8    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       9    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      10    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      11    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      12    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      13    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      14    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      15    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      16    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      17    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      18    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      19    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      20    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+                                                                                     
+  Connections (cont.)                                                                
+            |                 Flexural Capacity                 |                    
+            |          Node i        ||          Node j         |                    
+    Element |     Mpz    |     Mpy    |     Mpz    |     Mpy    |                    
+                                                                                     
+(iii) Section Information                                                            
+                                                                                     
+  Part 1:  Properties                                                                
+    Number |    Area    |    Izz     |    Iyy     |     J      |     Cw     |        
+       1   | 9.1200e+00 | 1.1000e+02 | 3.7100e+01 | 5.3600e-01 | 5.3100e+02 |        
+       2   | 5.2600e+00 | 6.1900e+01 | 7.9700e+00 | 1.7200e-01 | 1.2200e+02 |        
+       3   | 7.6500e+00 | 2.0400e+02 | 1.7300e+01 | 3.0000e-01 | 6.0600e+02 |        
+                                                                                     
+  Part 2:  Properties (cont.)                                                        
+    Number |    Ysc     |    Zsc     |   Betay    |   Betaz    |    Betaw   |        
+       1   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       2   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       3   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+                                                                                     
+  Part 3:  Properties (cont.)                                                        
+    Number |    Zzz     |    Zyy     |    Ayy     |    Azz     | Name                
+       1   | 3.0400e+01 | 1.4100e+01 |    Inf     |    Inf     | W8X31               
+       2   | 1.7000e+01 | 4.6600e+00 |    Inf     |    Inf     | W8X18               
+       3   | 3.7200e+01 | 8.1700e+00 |    Inf     |    Inf     | W12X26              
+                                                                                     
+  Part 4:  Yield Surface Maximum Values                                              
+    Number |   P/Py     |   Mz/Mpz   |   Mz/Mpy   |                                  
+       1   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       2   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       3   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+                                                                                     
+(iv)  Material Information                                                           
+                                                                                     
+    Number |     E      |     v      |    Fy      |    Wt      | Name                
+       1   | 2.9000e+04 | 3.0000e-01 | 5.0000e+01 | 0.0000e+00 | A992                
+       2   | 2.3200e+04 | 3.0000e-01 | 5.0000e+01 | 0.0000e+00 | A992 (DAM)          
+       3   | 2.6100e+04 | 3.0000e-01 | 4.5000e+01 | 0.0000e+00 | A992 (GMNIA)        
+                                                                                     
+(v)   Support Information                                                            
+                                                                                     
+  Prescribed Displacements                                                           
+     Node |      X      |      Y      |      Z      |                                
+       1  |  0.0000e+00 |  0.0000e+00 |    FREE     |                                
+       2  |  0.0000e+00 |  0.0000e+00 |    FREE     |                                
+                                                                                     
+  Prescribed Rotations                                                               
+     Node |    X Rot    |    Y Rot    |    Z Rot    |                                
+             *** No Prescribed Rotations Exist ***                                   
+                                                                                     
+(vi)  Applied Load Information                                                       
+                                                                                     
+  Nodal Forces                                                                       
+     Node |     Px      |     Py      |     Pz      |                                
+      17  |  1.5440e+00 | -2.3525e+02 |  0.0000e+00 |                                
+      18  |  1.5440e+00 | -2.3988e+02 |  0.0000e+00 |                                
+                                                                                     
+  Nodal Moments                                                                      
+     Node |     Mx      |     My      |     Mz      |                                
+             *** No concentrated Moments Exist ***                                   
+                                                                                     
+  Uniform Loads (Note: Refers to local coordinates)                                  
+    Element |     Wx      |     Wy      |     Wz      |                              
+             *** No Uniform Loads Exist ***                                          
+                                                                                     
+  Temperature Effects (Note: Refers to local coordinates)                            
+    Element | dT(centroid) | Tgradient(y') | Tgradient(z') | Thermal Coef |          
+             *** No Temperature Effects Defined ***                                  
+                                                                                     
+====================================                                                 
+End of Input for Structural Analysis                                                 
+====================================                                                 
+                                                                                     

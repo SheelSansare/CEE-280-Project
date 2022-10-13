@@ -1,0 +1,1200 @@
+                                                                                     
+                                                                                     
+                                                                                     
+***********   MASTAN2 v5.1.21 (December 1, 2020)   ***********                       
+                                                                                     
+Time:  15:13:23      Date:  07/13/2021                                               
+                                                                                     
+Problem Title:   Frame 18 (Ziemian & Ziemian)                                        
+**************                                                                       
+                                                                                     
+=============================                                                        
+Input for Structural Analysis                                                        
+=============================                                                        
+                                                                                     
+General Information Categories:                                                      
+                                                                                     
+(i)   Number of Nodes = 222                                                          
+(ii)  Number of Elements = 240                                                       
+(iii) Number of Sections = 19                                                        
+(iv)  Number of Materials = 3                                                        
+(v)   Number of Supports = 2                                                         
+(vi)  Applied Loads                                                                  
+                                                                                     
+(i)   Node Information                                                               
+                                                                                     
+  Coordinates                                                                        
+     Node |      X      |      Y      |      Z      |                                
+       1  |  0.0000e+00 |  0.0000e+00 |  0.0000e+00 |                                
+       2  |  6.7200e+02 |  0.0000e+00 |  0.0000e+00 |                                
+       3  |  0.0000e+00 |  4.2000e+01 |  0.0000e+00 |                                
+       4  |  6.7200e+02 |  4.2000e+01 |  0.0000e+00 |                                
+       5  |  0.0000e+00 |  8.4000e+01 |  0.0000e+00 |                                
+       6  |  6.7200e+02 |  8.4000e+01 |  0.0000e+00 |                                
+       7  |  0.0000e+00 |  1.2600e+02 |  0.0000e+00 |                                
+       8  |  6.7200e+02 |  1.2600e+02 |  0.0000e+00 |                                
+       9  |  0.0000e+00 |  1.6800e+02 |  0.0000e+00 |                                
+      10  |  1.6800e+02 |  1.6800e+02 |  0.0000e+00 |                                
+      11  |  3.3600e+02 |  1.6800e+02 |  0.0000e+00 |                                
+      12  |  5.0400e+02 |  1.6800e+02 |  0.0000e+00 |                                
+      13  |  6.7200e+02 |  1.6800e+02 |  0.0000e+00 |                                
+      14  |  0.0000e+00 |  2.1000e+02 |  0.0000e+00 |                                
+      15  |  6.7200e+02 |  2.1000e+02 |  0.0000e+00 |                                
+      16  |  0.0000e+00 |  2.5200e+02 |  0.0000e+00 |                                
+      17  |  6.7200e+02 |  2.5200e+02 |  0.0000e+00 |                                
+      18  |  0.0000e+00 |  2.9400e+02 |  0.0000e+00 |                                
+      19  |  6.7200e+02 |  2.9400e+02 |  0.0000e+00 |                                
+      20  |  0.0000e+00 |  3.3600e+02 |  0.0000e+00 |                                
+      21  |  1.6800e+02 |  3.3600e+02 |  0.0000e+00 |                                
+      22  |  3.3600e+02 |  3.3600e+02 |  0.0000e+00 |                                
+      23  |  5.0400e+02 |  3.3600e+02 |  0.0000e+00 |                                
+      24  |  6.7200e+02 |  3.3600e+02 |  0.0000e+00 |                                
+      25  |  0.0000e+00 |  3.7800e+02 |  0.0000e+00 |                                
+      26  |  6.7200e+02 |  3.7800e+02 |  0.0000e+00 |                                
+      27  |  0.0000e+00 |  4.2000e+02 |  0.0000e+00 |                                
+      28  |  6.7200e+02 |  4.2000e+02 |  0.0000e+00 |                                
+      29  |  0.0000e+00 |  4.6200e+02 |  0.0000e+00 |                                
+      30  |  6.7200e+02 |  4.6200e+02 |  0.0000e+00 |                                
+      31  |  0.0000e+00 |  5.0400e+02 |  0.0000e+00 |                                
+      32  |  1.6800e+02 |  5.0400e+02 |  0.0000e+00 |                                
+      33  |  3.3600e+02 |  5.0400e+02 |  0.0000e+00 |                                
+      34  |  5.0400e+02 |  5.0400e+02 |  0.0000e+00 |                                
+      35  |  6.7200e+02 |  5.0400e+02 |  0.0000e+00 |                                
+      36  |  0.0000e+00 |  5.4600e+02 |  0.0000e+00 |                                
+      37  |  6.7200e+02 |  5.4600e+02 |  0.0000e+00 |                                
+      38  |  0.0000e+00 |  5.8800e+02 |  0.0000e+00 |                                
+      39  |  6.7200e+02 |  5.8800e+02 |  0.0000e+00 |                                
+      40  |  0.0000e+00 |  6.3000e+02 |  0.0000e+00 |                                
+      41  |  6.7200e+02 |  6.3000e+02 |  0.0000e+00 |                                
+      42  |  0.0000e+00 |  6.7200e+02 |  0.0000e+00 |                                
+      43  |  1.6800e+02 |  6.7200e+02 |  0.0000e+00 |                                
+      44  |  3.3600e+02 |  6.7200e+02 |  0.0000e+00 |                                
+      45  |  5.0400e+02 |  6.7200e+02 |  0.0000e+00 |                                
+      46  |  6.7200e+02 |  6.7200e+02 |  0.0000e+00 |                                
+      47  |  0.0000e+00 |  7.1400e+02 |  0.0000e+00 |                                
+      48  |  6.7200e+02 |  7.1400e+02 |  0.0000e+00 |                                
+      49  |  0.0000e+00 |  7.5600e+02 |  0.0000e+00 |                                
+      50  |  6.7200e+02 |  7.5600e+02 |  0.0000e+00 |                                
+      51  |  0.0000e+00 |  7.9800e+02 |  0.0000e+00 |                                
+      52  |  6.7200e+02 |  7.9800e+02 |  0.0000e+00 |                                
+      53  |  0.0000e+00 |  8.4000e+02 |  0.0000e+00 |                                
+      54  |  1.6800e+02 |  8.4000e+02 |  0.0000e+00 |                                
+      55  |  3.3600e+02 |  8.4000e+02 |  0.0000e+00 |                                
+      56  |  5.0400e+02 |  8.4000e+02 |  0.0000e+00 |                                
+      57  |  6.7200e+02 |  8.4000e+02 |  0.0000e+00 |                                
+      58  |  0.0000e+00 |  8.8200e+02 |  0.0000e+00 |                                
+      59  |  6.7200e+02 |  8.8200e+02 |  0.0000e+00 |                                
+      60  |  0.0000e+00 |  9.2400e+02 |  0.0000e+00 |                                
+      61  |  6.7200e+02 |  9.2400e+02 |  0.0000e+00 |                                
+      62  |  0.0000e+00 |  9.6600e+02 |  0.0000e+00 |                                
+      63  |  6.7200e+02 |  9.6600e+02 |  0.0000e+00 |                                
+      64  |  0.0000e+00 |  1.0080e+03 |  0.0000e+00 |                                
+      65  |  1.6800e+02 |  1.0080e+03 |  0.0000e+00 |                                
+      66  |  3.3600e+02 |  1.0080e+03 |  0.0000e+00 |                                
+      67  |  5.0400e+02 |  1.0080e+03 |  0.0000e+00 |                                
+      68  |  6.7200e+02 |  1.0080e+03 |  0.0000e+00 |                                
+      69  |  0.0000e+00 |  1.0500e+03 |  0.0000e+00 |                                
+      70  |  6.7200e+02 |  1.0500e+03 |  0.0000e+00 |                                
+      71  |  0.0000e+00 |  1.0920e+03 |  0.0000e+00 |                                
+      72  |  6.7200e+02 |  1.0920e+03 |  0.0000e+00 |                                
+      73  |  0.0000e+00 |  1.1340e+03 |  0.0000e+00 |                                
+      74  |  6.7200e+02 |  1.1340e+03 |  0.0000e+00 |                                
+      75  |  0.0000e+00 |  1.1760e+03 |  0.0000e+00 |                                
+      76  |  1.6800e+02 |  1.1760e+03 |  0.0000e+00 |                                
+      77  |  3.3600e+02 |  1.1760e+03 |  0.0000e+00 |                                
+      78  |  5.0400e+02 |  1.1760e+03 |  0.0000e+00 |                                
+      79  |  6.7200e+02 |  1.1760e+03 |  0.0000e+00 |                                
+      80  |  0.0000e+00 |  1.2180e+03 |  0.0000e+00 |                                
+      81  |  6.7200e+02 |  1.2180e+03 |  0.0000e+00 |                                
+      82  |  0.0000e+00 |  1.2600e+03 |  0.0000e+00 |                                
+      83  |  6.7200e+02 |  1.2600e+03 |  0.0000e+00 |                                
+      84  |  0.0000e+00 |  1.3020e+03 |  0.0000e+00 |                                
+      85  |  6.7200e+02 |  1.3020e+03 |  0.0000e+00 |                                
+      86  |  0.0000e+00 |  1.3440e+03 |  0.0000e+00 |                                
+      87  |  1.6800e+02 |  1.3440e+03 |  0.0000e+00 |                                
+      88  |  3.3600e+02 |  1.3440e+03 |  0.0000e+00 |                                
+      89  |  5.0400e+02 |  1.3440e+03 |  0.0000e+00 |                                
+      90  |  6.7200e+02 |  1.3440e+03 |  0.0000e+00 |                                
+      91  |  0.0000e+00 |  1.3860e+03 |  0.0000e+00 |                                
+      92  |  6.7200e+02 |  1.3860e+03 |  0.0000e+00 |                                
+      93  |  0.0000e+00 |  1.4280e+03 |  0.0000e+00 |                                
+      94  |  6.7200e+02 |  1.4280e+03 |  0.0000e+00 |                                
+      95  |  0.0000e+00 |  1.4700e+03 |  0.0000e+00 |                                
+      96  |  6.7200e+02 |  1.4700e+03 |  0.0000e+00 |                                
+      97  |  0.0000e+00 |  1.5120e+03 |  0.0000e+00 |                                
+      98  |  1.6800e+02 |  1.5120e+03 |  0.0000e+00 |                                
+      99  |  3.3600e+02 |  1.5120e+03 |  0.0000e+00 |                                
+     100  |  5.0400e+02 |  1.5120e+03 |  0.0000e+00 |                                
+     101  |  6.7200e+02 |  1.5120e+03 |  0.0000e+00 |                                
+     102  |  0.0000e+00 |  1.5540e+03 |  0.0000e+00 |                                
+     103  |  6.7200e+02 |  1.5540e+03 |  0.0000e+00 |                                
+     104  |  0.0000e+00 |  1.5960e+03 |  0.0000e+00 |                                
+     105  |  6.7200e+02 |  1.5960e+03 |  0.0000e+00 |                                
+     106  |  0.0000e+00 |  1.6380e+03 |  0.0000e+00 |                                
+     107  |  6.7200e+02 |  1.6380e+03 |  0.0000e+00 |                                
+     108  |  0.0000e+00 |  1.6800e+03 |  0.0000e+00 |                                
+     109  |  1.6800e+02 |  1.6800e+03 |  0.0000e+00 |                                
+     110  |  3.3600e+02 |  1.6800e+03 |  0.0000e+00 |                                
+     111  |  5.0400e+02 |  1.6800e+03 |  0.0000e+00 |                                
+     112  |  6.7200e+02 |  1.6800e+03 |  0.0000e+00 |                                
+     113  |  0.0000e+00 |  1.7220e+03 |  0.0000e+00 |                                
+     114  |  6.7200e+02 |  1.7220e+03 |  0.0000e+00 |                                
+     115  |  0.0000e+00 |  1.7640e+03 |  0.0000e+00 |                                
+     116  |  6.7200e+02 |  1.7640e+03 |  0.0000e+00 |                                
+     117  |  0.0000e+00 |  1.8060e+03 |  0.0000e+00 |                                
+     118  |  6.7200e+02 |  1.8060e+03 |  0.0000e+00 |                                
+     119  |  0.0000e+00 |  1.8480e+03 |  0.0000e+00 |                                
+     120  |  1.6800e+02 |  1.8480e+03 |  0.0000e+00 |                                
+     121  |  3.3600e+02 |  1.8480e+03 |  0.0000e+00 |                                
+     122  |  5.0400e+02 |  1.8480e+03 |  0.0000e+00 |                                
+     123  |  6.7200e+02 |  1.8480e+03 |  0.0000e+00 |                                
+     124  |  0.0000e+00 |  1.8900e+03 |  0.0000e+00 |                                
+     125  |  6.7200e+02 |  1.8900e+03 |  0.0000e+00 |                                
+     126  |  0.0000e+00 |  1.9320e+03 |  0.0000e+00 |                                
+     127  |  6.7200e+02 |  1.9320e+03 |  0.0000e+00 |                                
+     128  |  0.0000e+00 |  1.9740e+03 |  0.0000e+00 |                                
+     129  |  6.7200e+02 |  1.9740e+03 |  0.0000e+00 |                                
+     130  |  0.0000e+00 |  2.0160e+03 |  0.0000e+00 |                                
+     131  |  1.6800e+02 |  2.0160e+03 |  0.0000e+00 |                                
+     132  |  3.3600e+02 |  2.0160e+03 |  0.0000e+00 |                                
+     133  |  5.0400e+02 |  2.0160e+03 |  0.0000e+00 |                                
+     134  |  6.7200e+02 |  2.0160e+03 |  0.0000e+00 |                                
+     135  |  0.0000e+00 |  2.0580e+03 |  0.0000e+00 |                                
+     136  |  6.7200e+02 |  2.0580e+03 |  0.0000e+00 |                                
+     137  |  0.0000e+00 |  2.1000e+03 |  0.0000e+00 |                                
+     138  |  6.7200e+02 |  2.1000e+03 |  0.0000e+00 |                                
+     139  |  0.0000e+00 |  2.1420e+03 |  0.0000e+00 |                                
+     140  |  6.7200e+02 |  2.1420e+03 |  0.0000e+00 |                                
+     141  |  0.0000e+00 |  2.1840e+03 |  0.0000e+00 |                                
+     142  |  1.6800e+02 |  2.1840e+03 |  0.0000e+00 |                                
+     143  |  3.3600e+02 |  2.1840e+03 |  0.0000e+00 |                                
+     144  |  5.0400e+02 |  2.1840e+03 |  0.0000e+00 |                                
+     145  |  6.7200e+02 |  2.1840e+03 |  0.0000e+00 |                                
+     146  |  0.0000e+00 |  2.2260e+03 |  0.0000e+00 |                                
+     147  |  6.7200e+02 |  2.2260e+03 |  0.0000e+00 |                                
+     148  |  0.0000e+00 |  2.2680e+03 |  0.0000e+00 |                                
+     149  |  6.7200e+02 |  2.2680e+03 |  0.0000e+00 |                                
+     150  |  0.0000e+00 |  2.3100e+03 |  0.0000e+00 |                                
+     151  |  6.7200e+02 |  2.3100e+03 |  0.0000e+00 |                                
+     152  |  0.0000e+00 |  2.3520e+03 |  0.0000e+00 |                                
+     153  |  1.6800e+02 |  2.3520e+03 |  0.0000e+00 |                                
+     154  |  3.3600e+02 |  2.3520e+03 |  0.0000e+00 |                                
+     155  |  5.0400e+02 |  2.3520e+03 |  0.0000e+00 |                                
+     156  |  6.7200e+02 |  2.3520e+03 |  0.0000e+00 |                                
+     157  |  0.0000e+00 |  2.3940e+03 |  0.0000e+00 |                                
+     158  |  6.7200e+02 |  2.3940e+03 |  0.0000e+00 |                                
+     159  |  0.0000e+00 |  2.4360e+03 |  0.0000e+00 |                                
+     160  |  6.7200e+02 |  2.4360e+03 |  0.0000e+00 |                                
+     161  |  0.0000e+00 |  2.4780e+03 |  0.0000e+00 |                                
+     162  |  6.7200e+02 |  2.4780e+03 |  0.0000e+00 |                                
+     163  |  0.0000e+00 |  2.5200e+03 |  0.0000e+00 |                                
+     164  |  1.6800e+02 |  2.5200e+03 |  0.0000e+00 |                                
+     165  |  3.3600e+02 |  2.5200e+03 |  0.0000e+00 |                                
+     166  |  5.0400e+02 |  2.5200e+03 |  0.0000e+00 |                                
+     167  |  6.7200e+02 |  2.5200e+03 |  0.0000e+00 |                                
+     168  |  0.0000e+00 |  2.5620e+03 |  0.0000e+00 |                                
+     169  |  6.7200e+02 |  2.5620e+03 |  0.0000e+00 |                                
+     170  |  0.0000e+00 |  2.6040e+03 |  0.0000e+00 |                                
+     171  |  6.7200e+02 |  2.6040e+03 |  0.0000e+00 |                                
+     172  |  0.0000e+00 |  2.6460e+03 |  0.0000e+00 |                                
+     173  |  6.7200e+02 |  2.6460e+03 |  0.0000e+00 |                                
+     174  |  0.0000e+00 |  2.6880e+03 |  0.0000e+00 |                                
+     175  |  1.6800e+02 |  2.6880e+03 |  0.0000e+00 |                                
+     176  |  3.3600e+02 |  2.6880e+03 |  0.0000e+00 |                                
+     177  |  5.0400e+02 |  2.6880e+03 |  0.0000e+00 |                                
+     178  |  6.7200e+02 |  2.6880e+03 |  0.0000e+00 |                                
+     179  |  0.0000e+00 |  2.7300e+03 |  0.0000e+00 |                                
+     180  |  6.7200e+02 |  2.7300e+03 |  0.0000e+00 |                                
+     181  |  0.0000e+00 |  2.7720e+03 |  0.0000e+00 |                                
+     182  |  6.7200e+02 |  2.7720e+03 |  0.0000e+00 |                                
+     183  |  0.0000e+00 |  2.8140e+03 |  0.0000e+00 |                                
+     184  |  6.7200e+02 |  2.8140e+03 |  0.0000e+00 |                                
+     185  |  0.0000e+00 |  2.8560e+03 |  0.0000e+00 |                                
+     186  |  1.6800e+02 |  2.8560e+03 |  0.0000e+00 |                                
+     187  |  3.3600e+02 |  2.8560e+03 |  0.0000e+00 |                                
+     188  |  5.0400e+02 |  2.8560e+03 |  0.0000e+00 |                                
+     189  |  6.7200e+02 |  2.8560e+03 |  0.0000e+00 |                                
+     190  |  0.0000e+00 |  2.8980e+03 |  0.0000e+00 |                                
+     191  |  6.7200e+02 |  2.8980e+03 |  0.0000e+00 |                                
+     192  |  0.0000e+00 |  2.9400e+03 |  0.0000e+00 |                                
+     193  |  6.7200e+02 |  2.9400e+03 |  0.0000e+00 |                                
+     194  |  0.0000e+00 |  2.9820e+03 |  0.0000e+00 |                                
+     195  |  6.7200e+02 |  2.9820e+03 |  0.0000e+00 |                                
+     196  |  0.0000e+00 |  3.0240e+03 |  0.0000e+00 |                                
+     197  |  1.6800e+02 |  3.0240e+03 |  0.0000e+00 |                                
+     198  |  3.3600e+02 |  3.0240e+03 |  0.0000e+00 |                                
+     199  |  5.0400e+02 |  3.0240e+03 |  0.0000e+00 |                                
+     200  |  6.7200e+02 |  3.0240e+03 |  0.0000e+00 |                                
+     201  |  0.0000e+00 |  3.0660e+03 |  0.0000e+00 |                                
+     202  |  6.7200e+02 |  3.0660e+03 |  0.0000e+00 |                                
+     203  |  0.0000e+00 |  3.1080e+03 |  0.0000e+00 |                                
+     204  |  6.7200e+02 |  3.1080e+03 |  0.0000e+00 |                                
+     205  |  0.0000e+00 |  3.1500e+03 |  0.0000e+00 |                                
+     206  |  6.7200e+02 |  3.1500e+03 |  0.0000e+00 |                                
+     207  |  0.0000e+00 |  3.1920e+03 |  0.0000e+00 |                                
+     208  |  1.6800e+02 |  3.1920e+03 |  0.0000e+00 |                                
+     209  |  3.3600e+02 |  3.1920e+03 |  0.0000e+00 |                                
+     210  |  5.0400e+02 |  3.1920e+03 |  0.0000e+00 |                                
+     211  |  6.7200e+02 |  3.1920e+03 |  0.0000e+00 |                                
+     212  |  0.0000e+00 |  3.2340e+03 |  0.0000e+00 |                                
+     213  |  6.7200e+02 |  3.2340e+03 |  0.0000e+00 |                                
+     214  |  0.0000e+00 |  3.2760e+03 |  0.0000e+00 |                                
+     215  |  6.7200e+02 |  3.2760e+03 |  0.0000e+00 |                                
+     216  |  0.0000e+00 |  3.3180e+03 |  0.0000e+00 |                                
+     217  |  6.7200e+02 |  3.3180e+03 |  0.0000e+00 |                                
+     218  |  0.0000e+00 |  3.3600e+03 |  0.0000e+00 |                                
+     219  |  1.6800e+02 |  3.3600e+03 |  0.0000e+00 |                                
+     220  |  3.3600e+02 |  3.3600e+03 |  0.0000e+00 |                                
+     221  |  5.0400e+02 |  3.3600e+03 |  0.0000e+00 |                                
+     222  |  6.7200e+02 |  3.3600e+03 |  0.0000e+00 |                                
+                                                                                     
+  Fixities                                                                           
+     Node |    X   |    Y   |    Z   |  X Rot |  Y Rot |  Z Rot |                    
+       1  |  FIXED |  FIXED |  FREE  |  FREE  |  FREE  |  FIXED |                    
+       2  |  FIXED |  FIXED |  FREE  |  FREE  |  FREE  |  FIXED |                    
+       3  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       4  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       5  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       6  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       7  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       8  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       9  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      10  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      11  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      12  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      13  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      14  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      15  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      16  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      17  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      18  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      19  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      20  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      21  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      22  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      23  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      24  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      25  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      26  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      27  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      28  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      29  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      30  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      31  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      32  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      33  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      34  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      35  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      36  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      37  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      38  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      39  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      40  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      41  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      42  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      43  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      44  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      45  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      46  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      47  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      48  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      49  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      50  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      51  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      52  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      53  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      54  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      55  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      56  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      57  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      58  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      59  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      60  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      61  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      62  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      63  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      64  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      65  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      66  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      67  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      68  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      69  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      70  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      71  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      72  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      73  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      74  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      75  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      76  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      77  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      78  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      79  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      80  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      81  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      82  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      83  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      84  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      85  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      86  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      87  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      88  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      89  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      90  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      91  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      92  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      93  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      94  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      95  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      96  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      97  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      98  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      99  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     100  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     101  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     102  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     103  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     104  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     105  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     106  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     107  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     108  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     109  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     110  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     111  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     112  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     113  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     114  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     115  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     116  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     117  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     118  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     119  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     120  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     121  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     122  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     123  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     124  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     125  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     126  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     127  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     128  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     129  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     130  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     131  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     132  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     133  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     134  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     135  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     136  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     137  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     138  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     139  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     140  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     141  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     142  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     143  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     144  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     145  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     146  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     147  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     148  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     149  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     150  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     151  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     152  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     153  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     154  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     155  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     156  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     157  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     158  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     159  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     160  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     161  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     162  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     163  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     164  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     165  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     166  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     167  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     168  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     169  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     170  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     171  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     172  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     173  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     174  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     175  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     176  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     177  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     178  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     179  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     180  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     181  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     182  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     183  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     184  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     185  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     186  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     187  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     188  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     189  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     190  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     191  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     192  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     193  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     194  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     195  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     196  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     197  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     198  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     199  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     200  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     201  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     202  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     203  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     204  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     205  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     206  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     207  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     208  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     209  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     210  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     211  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     212  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     213  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     214  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     215  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     216  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     217  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     218  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     219  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     220  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     221  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     222  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+                                                                                     
+(ii)  Element Information                                                            
+                                                                                     
+  Connectivity & Attributes                                                          
+    Element | Node i | Node j |   Length   |  Beta (deg)  | Section | Material |     
+       1    |    1   |    3   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+       2    |    3   |    5   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+       3    |    5   |    7   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+       4    |    7   |    9   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+       5    |    2   |    4   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+       6    |    4   |    6   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+       7    |    6   |    8   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+       8    |    8   |   13   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+       9    |    9   |   10   | 1.6800e+02 |  0.0000e+00  |    9    |    1     |     
+      10    |   10   |   11   | 1.6800e+02 |  0.0000e+00  |    9    |    1     |     
+      11    |   11   |   12   | 1.6800e+02 |  0.0000e+00  |    9    |    1     |     
+      12    |   12   |   13   | 1.6800e+02 |  0.0000e+00  |    9    |    1     |     
+      13    |    9   |   14   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+      14    |   14   |   16   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+      15    |   16   |   18   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+      16    |   18   |   20   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+      17    |   13   |   15   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+      18    |   15   |   17   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+      19    |   17   |   19   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+      20    |   19   |   24   | 4.2000e+01 |  0.0000e+00  |   18    |    1     |     
+      21    |   20   |   21   | 1.6800e+02 |  0.0000e+00  |    9    |    1     |     
+      22    |   21   |   22   | 1.6800e+02 |  0.0000e+00  |    9    |    1     |     
+      23    |   22   |   23   | 1.6800e+02 |  0.0000e+00  |    9    |    1     |     
+      24    |   23   |   24   | 1.6800e+02 |  0.0000e+00  |    9    |    1     |     
+      25    |   20   |   25   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      26    |   25   |   27   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      27    |   27   |   29   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      28    |   29   |   31   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      29    |   24   |   26   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      30    |   26   |   28   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      31    |   28   |   30   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      32    |   30   |   35   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      33    |   31   |   32   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      34    |   32   |   33   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      35    |   33   |   34   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      36    |   34   |   35   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      37    |   31   |   36   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      38    |   36   |   38   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      39    |   38   |   40   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      40    |   40   |   42   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      41    |   35   |   37   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      42    |   37   |   39   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      43    |   39   |   41   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      44    |   41   |   46   | 4.2000e+01 |  0.0000e+00  |   17    |    1     |     
+      45    |   42   |   43   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      46    |   43   |   44   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      47    |   44   |   45   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      48    |   45   |   46   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      49    |   42   |   47   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      50    |   47   |   49   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      51    |   49   |   51   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      52    |   51   |   53   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      53    |   46   |   48   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      54    |   48   |   50   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      55    |   50   |   52   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      56    |   52   |   57   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      57    |   53   |   54   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      58    |   54   |   55   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      59    |   55   |   56   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      60    |   56   |   57   | 1.6800e+02 |  0.0000e+00  |    8    |    1     |     
+      61    |   53   |   58   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      62    |   58   |   60   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      63    |   60   |   62   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      64    |   62   |   64   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      65    |   57   |   59   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      66    |   59   |   61   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      67    |   61   |   63   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      68    |   63   |   68   | 4.2000e+01 |  0.0000e+00  |   16    |    1     |     
+      69    |   64   |   65   | 1.6800e+02 |  0.0000e+00  |    7    |    1     |     
+      70    |   65   |   66   | 1.6800e+02 |  0.0000e+00  |    7    |    1     |     
+      71    |   66   |   67   | 1.6800e+02 |  0.0000e+00  |    7    |    1     |     
+      72    |   67   |   68   | 1.6800e+02 |  0.0000e+00  |    7    |    1     |     
+      73    |   64   |   69   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      74    |   69   |   71   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      75    |   71   |   73   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      76    |   73   |   75   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      77    |   68   |   70   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      78    |   70   |   72   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      79    |   72   |   74   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      80    |   74   |   79   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      81    |   75   |   76   | 1.6800e+02 |  0.0000e+00  |    7    |    1     |     
+      82    |   76   |   77   | 1.6800e+02 |  0.0000e+00  |    7    |    1     |     
+      83    |   77   |   78   | 1.6800e+02 |  0.0000e+00  |    7    |    1     |     
+      84    |   78   |   79   | 1.6800e+02 |  0.0000e+00  |    7    |    1     |     
+      85    |   75   |   80   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      86    |   80   |   82   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      87    |   82   |   84   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      88    |   84   |   86   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      89    |   79   |   81   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      90    |   81   |   83   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      91    |   83   |   85   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      92    |   85   |   90   | 4.2000e+01 |  0.0000e+00  |   15    |    1     |     
+      93    |   86   |   87   | 1.6800e+02 |  0.0000e+00  |    6    |    1     |     
+      94    |   87   |   88   | 1.6800e+02 |  0.0000e+00  |    6    |    1     |     
+      95    |   88   |   89   | 1.6800e+02 |  0.0000e+00  |    6    |    1     |     
+      96    |   89   |   90   | 1.6800e+02 |  0.0000e+00  |    6    |    1     |     
+      97    |   86   |   91   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+      98    |   91   |   93   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+      99    |   93   |   95   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     100    |   95   |   97   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     101    |   90   |   92   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     102    |   92   |   94   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     103    |   94   |   96   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     104    |   96   |  101   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     105    |   97   |   98   | 1.6800e+02 |  0.0000e+00  |    5    |    1     |     
+     106    |   98   |   99   | 1.6800e+02 |  0.0000e+00  |    5    |    1     |     
+     107    |   99   |  100   | 1.6800e+02 |  0.0000e+00  |    5    |    1     |     
+     108    |  100   |  101   | 1.6800e+02 |  0.0000e+00  |    5    |    1     |     
+     109    |   97   |  102   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     110    |  102   |  104   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     111    |  104   |  106   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     112    |  106   |  108   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     113    |  101   |  103   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     114    |  103   |  105   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     115    |  105   |  107   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     116    |  107   |  112   | 4.2000e+01 |  0.0000e+00  |   14    |    1     |     
+     117    |  108   |  109   | 1.6800e+02 |  0.0000e+00  |    5    |    1     |     
+     118    |  109   |  110   | 1.6800e+02 |  0.0000e+00  |    5    |    1     |     
+     119    |  110   |  111   | 1.6800e+02 |  0.0000e+00  |    5    |    1     |     
+     120    |  111   |  112   | 1.6800e+02 |  0.0000e+00  |    5    |    1     |     
+     121    |  108   |  113   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     122    |  113   |  115   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     123    |  115   |  117   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     124    |  117   |  119   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     125    |  112   |  114   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     126    |  114   |  116   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     127    |  116   |  118   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     128    |  118   |  123   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     129    |  119   |  120   | 1.6800e+02 |  0.0000e+00  |    4    |    1     |     
+     130    |  120   |  121   | 1.6800e+02 |  0.0000e+00  |    4    |    1     |     
+     131    |  121   |  122   | 1.6800e+02 |  0.0000e+00  |    4    |    1     |     
+     132    |  122   |  123   | 1.6800e+02 |  0.0000e+00  |    4    |    1     |     
+     133    |  119   |  124   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     134    |  124   |  126   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     135    |  126   |  128   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     136    |  128   |  130   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     137    |  123   |  125   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     138    |  125   |  127   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     139    |  127   |  129   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     140    |  129   |  134   | 4.2000e+01 |  0.0000e+00  |   13    |    1     |     
+     141    |  130   |  131   | 1.6800e+02 |  0.0000e+00  |    4    |    1     |     
+     142    |  131   |  132   | 1.6800e+02 |  0.0000e+00  |    4    |    1     |     
+     143    |  132   |  133   | 1.6800e+02 |  0.0000e+00  |    4    |    1     |     
+     144    |  133   |  134   | 1.6800e+02 |  0.0000e+00  |    4    |    1     |     
+     145    |  130   |  135   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     146    |  135   |  137   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     147    |  137   |  139   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     148    |  139   |  141   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     149    |  134   |  136   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     150    |  136   |  138   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     151    |  138   |  140   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     152    |  140   |  145   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     153    |  141   |  142   | 1.6800e+02 |  0.0000e+00  |    3    |    1     |     
+     154    |  142   |  143   | 1.6800e+02 |  0.0000e+00  |    3    |    1     |     
+     155    |  143   |  144   | 1.6800e+02 |  0.0000e+00  |    3    |    1     |     
+     156    |  144   |  145   | 1.6800e+02 |  0.0000e+00  |    3    |    1     |     
+     157    |  141   |  146   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     158    |  146   |  148   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     159    |  148   |  150   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     160    |  150   |  152   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     161    |  145   |  147   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     162    |  147   |  149   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     163    |  149   |  151   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     164    |  151   |  156   | 4.2000e+01 |  0.0000e+00  |   19    |    1     |     
+     165    |  152   |  153   | 1.6800e+02 |  0.0000e+00  |    3    |    1     |     
+     166    |  153   |  154   | 1.6800e+02 |  0.0000e+00  |    3    |    1     |     
+     167    |  154   |  155   | 1.6800e+02 |  0.0000e+00  |    3    |    1     |     
+     168    |  155   |  156   | 1.6800e+02 |  0.0000e+00  |    3    |    1     |     
+     169    |  152   |  157   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     170    |  157   |  159   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     171    |  159   |  161   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     172    |  161   |  163   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     173    |  156   |  158   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     174    |  158   |  160   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     175    |  160   |  162   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     176    |  162   |  167   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     177    |  163   |  164   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     178    |  164   |  165   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     179    |  165   |  166   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     180    |  166   |  167   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     181    |  163   |  168   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     182    |  168   |  170   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     183    |  170   |  172   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     184    |  172   |  174   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     185    |  167   |  169   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     186    |  169   |  171   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     187    |  171   |  173   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     188    |  173   |  178   | 4.2000e+01 |  0.0000e+00  |   12    |    1     |     
+     189    |  174   |  175   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     190    |  175   |  176   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     191    |  176   |  177   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     192    |  177   |  178   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     193    |  174   |  179   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     194    |  179   |  181   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     195    |  181   |  183   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     196    |  183   |  185   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     197    |  178   |  180   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     198    |  180   |  182   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     199    |  182   |  184   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     200    |  184   |  189   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     201    |  185   |  186   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     202    |  186   |  187   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     203    |  187   |  188   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     204    |  188   |  189   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     205    |  185   |  190   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     206    |  190   |  192   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     207    |  192   |  194   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     208    |  194   |  196   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     209    |  189   |  191   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     210    |  191   |  193   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     211    |  193   |  195   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     212    |  195   |  200   | 4.2000e+01 |  0.0000e+00  |   11    |    1     |     
+     213    |  196   |  197   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     214    |  197   |  198   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     215    |  198   |  199   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     216    |  199   |  200   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     217    |  196   |  201   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     218    |  201   |  203   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     219    |  203   |  205   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     220    |  205   |  207   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     221    |  200   |  202   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     222    |  202   |  204   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     223    |  204   |  206   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     224    |  206   |  211   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     225    |  207   |  208   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     226    |  208   |  209   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     227    |  209   |  210   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     228    |  210   |  211   | 1.6800e+02 |  0.0000e+00  |    2    |    1     |     
+     229    |  207   |  212   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     230    |  212   |  214   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     231    |  214   |  216   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     232    |  216   |  218   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     233    |  211   |  213   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     234    |  213   |  215   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     235    |  215   |  217   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     236    |  217   |  222   | 4.2000e+01 |  0.0000e+00  |   10    |    1     |     
+     237    |  218   |  219   | 1.6800e+02 |  0.0000e+00  |    1    |    1     |     
+     238    |  219   |  220   | 1.6800e+02 |  0.0000e+00  |    1    |    1     |     
+     239    |  220   |  221   | 1.6800e+02 |  0.0000e+00  |    1    |    1     |     
+     240    |  221   |  222   | 1.6800e+02 |  0.0000e+00  |    1    |    1     |     
+                                                                                     
+  Connections                                                                        
+            |               Flexural Stiffness               ||||      Torsion      |
+            |          Node i        ||          Node j        || Warping Restraint |
+    Element |     kz     |     ky     |     kz     |     ky     |  Node i |  Node j |
+       1    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       2    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       3    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       4    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       5    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       6    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       7    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       8    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       9    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      10    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      11    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      12    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      13    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      14    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      15    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      16    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      17    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      18    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      19    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      20    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      21    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      22    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      23    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      24    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      25    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      26    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      27    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      28    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      29    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      30    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      31    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      32    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      33    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      34    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      35    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      36    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      37    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      38    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      39    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      40    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      41    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      42    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      43    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      44    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      45    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      46    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      47    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      48    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      49    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      50    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      51    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      52    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      53    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      54    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      55    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      56    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      57    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      58    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      59    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      60    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      61    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      62    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      63    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      64    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      65    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      66    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      67    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      68    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      69    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      70    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      71    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      72    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      73    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      74    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      75    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      76    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      77    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      78    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      79    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      80    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      81    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      82    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      83    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      84    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      85    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      86    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      87    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      88    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      89    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      90    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      91    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      92    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      93    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      94    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      95    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      96    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      97    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      98    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      99    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     100    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     101    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     102    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     103    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     104    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     105    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     106    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     107    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     108    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     109    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     110    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     111    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     112    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     113    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     114    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     115    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     116    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     117    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     118    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     119    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     120    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     121    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     122    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     123    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     124    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     125    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     126    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     127    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     128    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     129    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     130    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     131    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     132    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     133    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     134    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     135    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     136    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     137    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     138    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     139    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     140    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     141    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     142    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     143    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     144    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     145    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     146    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     147    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     148    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     149    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     150    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     151    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     152    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     153    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     154    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     155    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     156    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     157    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     158    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     159    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     160    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     161    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     162    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     163    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     164    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     165    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     166    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     167    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     168    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     169    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     170    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     171    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     172    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     173    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     174    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     175    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     176    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     177    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     178    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     179    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     180    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     181    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     182    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     183    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     184    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     185    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     186    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     187    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     188    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     189    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     190    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     191    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     192    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     193    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     194    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     195    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     196    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     197    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     198    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     199    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     200    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     201    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     202    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     203    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     204    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     205    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     206    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     207    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     208    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     209    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     210    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     211    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     212    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     213    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     214    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     215    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     216    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     217    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     218    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     219    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     220    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     221    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     222    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     223    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     224    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     225    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     226    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     227    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     228    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     229    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     230    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     231    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     232    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     233    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     234    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     235    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     236    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     237    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     238    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     239    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     240    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+                                                                                     
+  Connections (cont.)                                                                
+            |                 Flexural Capacity                 |                    
+            |          Node i        ||          Node j         |                    
+    Element |     Mpz    |     Mpy    |     Mpz    |     Mpy    |                    
+                                                                                     
+(iii) Section Information                                                            
+                                                                                     
+  Part 1:  Properties                                                                
+    Number |    Area    |    Izz     |    Iyy     |     J      |     Cw     |        
+       1   | 2.9100e+01 | 3.9900e+03 | 1.2800e+02 | 3.7700e+00 | 2.6900e+04 |        
+       2   | 3.8300e+01 | 6.7100e+03 | 2.1800e+02 | 7.3700e+00 | 5.6600e+04 |        
+       3   | 3.9700e+01 | 7.8000e+03 | 2.2500e+02 | 7.0000e+00 | 6.8000e+04 |        
+       4   | 4.4200e+01 | 9.0400e+03 | 2.7000e+02 | 1.0100e+01 | 8.2300e+04 |        
+       5   | 4.7000e+01 | 9.7600e+03 | 2.9500e+02 | 1.2400e+01 | 9.0300e+04 |        
+       6   | 5.0100e+01 | 1.0500e+04 | 3.2000e+02 | 1.5100e+01 | 9.8400e+04 |        
+       7   | 5.3600e+01 | 1.1300e+04 | 3.4700e+02 | 1.8500e+01 | 1.0700e+05 |        
+       8   | 5.7000e+01 | 1.2100e+04 | 3.7500e+02 | 2.2200e+01 | 1.1600e+05 |        
+       9   | 6.7600e+01 | 1.5000e+04 | 9.4000e+02 | 2.8600e+01 | 2.8200e+05 |        
+      10   | 3.8800e+01 | 1.5300e+03 | 5.4800e+02 | 1.2300e+01 | 2.5500e+04 |        
+      11   | 5.1800e+01 | 2.1400e+03 | 8.3800e+02 | 2.6500e+01 | 4.0500e+04 |        
+      12   | 6.8500e+01 | 3.0100e+03 | 1.1500e+03 | 5.9500e+01 | 5.9000e+04 |        
+      13   | 9.1400e+01 | 4.3300e+03 | 1.6100e+03 | 1.3600e+02 | 8.8900e+04 |        
+      14   | 1.0900e+02 | 5.4400e+03 | 1.9900e+03 | 2.2200e+02 | 1.1600e+05 |        
+      15   | 1.2500e+02 | 6.6000e+03 | 2.3600e+03 | 3.3100e+02 | 1.4400e+05 |        
+      16   | 1.4700e+02 | 8.2100e+03 | 2.8800e+03 | 5.1400e+02 | 1.8700e+05 |        
+      17   | 1.6200e+02 | 9.4300e+03 | 3.2500e+03 | 6.6900e+02 | 2.1900e+05 |        
+      18   | 1.7800e+02 | 1.0800e+04 | 3.6800e+03 | 8.6900e+02 | 2.5800e+05 |        
+      19   | 7.5600e+01 | 3.4000e+03 | 1.2900e+03 | 7.9100e+01 | 6.7700e+04 |        
+                                                                                     
+  Part 2:  Properties (cont.)                                                        
+    Number |    Ysc     |    Zsc     |   Betay    |   Betaz    |    Betaw   |        
+       1   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       2   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       3   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       4   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       5   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       6   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       7   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       8   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       9   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      10   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      11   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      12   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      13   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      14   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      15   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      16   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      17   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      18   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      19   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+                                                                                     
+  Part 3:  Properties (cont.)                                                        
+    Number |    Zzz     |    Zyy     |    Ayy     |    Azz     | Name                
+       1   | 3.1200e+02 | 3.8600e+01 |    Inf     |    Inf     | W30X99              
+       2   | 4.6700e+02 | 5.9500e+01 |    Inf     |    Inf     | W33X130             
+       3   | 5.0900e+02 | 5.9700e+01 |    Inf     |    Inf     | W36X135             
+       4   | 5.8100e+02 | 7.0900e+01 |    Inf     |    Inf     | W36X150             
+       5   | 6.2400e+02 | 7.7300e+01 |    Inf     |    Inf     | W36X160             
+       6   | 6.6800e+02 | 8.3800e+01 |    Inf     |    Inf     | W36X170             
+       7   | 7.1800e+02 | 9.0700e+01 |    Inf     |    Inf     | W36X182             
+       8   | 7.6700e+02 | 9.7700e+01 |    Inf     |    Inf     | W36X194             
+       9   | 9.4300e+02 | 1.7600e+02 |    Inf     |    Inf     | W36X230             
+      10   | 2.3400e+02 | 1.1300e+02 |    Inf     |    Inf     | W14X132             
+      11   | 3.2000e+02 | 1.6300e+02 |    Inf     |    Inf     | W14X176             
+      12   | 4.3600e+02 | 2.2100e+02 |    Inf     |    Inf     | W14X233             
+      13   | 6.0300e+02 | 3.0400e+02 |    Inf     |    Inf     | W14X311             
+      14   | 7.3600e+02 | 3.7000e+02 |    Inf     |    Inf     | W14X370             
+      15   | 8.6900e+02 | 4.3400e+02 |    Inf     |    Inf     | W14X426             
+      16   | 1.0500e+03 | 5.2200e+02 |    Inf     |    Inf     | W14X500             
+      17   | 1.1800e+03 | 5.8300e+02 |    Inf     |    Inf     | W14X550             
+      18   | 1.3200e+03 | 6.5200e+02 |    Inf     |    Inf     | W14X605             
+      19   | 4.8700e+02 | 2.4600e+02 |    Inf     |    Inf     | W14X257             
+                                                                                     
+  Part 4:  Yield Surface Maximum Values                                              
+    Number |   P/Py     |   Mz/Mpz   |   Mz/Mpy   |                                  
+       1   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       2   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       3   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       4   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       5   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       6   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       7   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       8   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       9   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      10   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      11   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      12   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      13   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      14   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      15   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      16   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      17   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      18   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      19   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+                                                                                     
+(iv)  Material Information                                                           
+                                                                                     
+    Number |     E      |     v      |    Fy      |    Wt      | Name                
+       1   | 2.9000e+04 | 3.0000e-01 | 3.6000e+01 | 0.0000e+00 | A36                 
+       2   | 2.3200e+04 | 3.0000e-01 | 3.6000e+01 | 0.0000e+00 | A36 (DAM)           
+       3   | 2.6100e+04 | 3.0000e-01 | 3.2400e+01 | 0.0000e+00 | A36 (GMNIA)         
+                                                                                     
+(v)   Support Information                                                            
+                                                                                     
+  Prescribed Displacements                                                           
+     Node |      X      |      Y      |      Z      |                                
+       1  |  0.0000e+00 |  0.0000e+00 |    FREE     |                                
+       2  |  0.0000e+00 |  0.0000e+00 |    FREE     |                                
+                                                                                     
+  Prescribed Rotations                                                               
+     Node |    X Rot    |    Y Rot    |    Z Rot    |                                
+       1  |    FREE     |    FREE     |  0.0000e+00 |                                
+       2  |    FREE     |    FREE     |  0.0000e+00 |                                
+                                                                                     
+(vi)  Applied Load Information                                                       
+                                                                                     
+  Nodal Forces                                                                       
+     Node |     Px      |     Py      |     Pz      |                                
+       9  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+      10  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      11  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      12  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      13  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+      20  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+      21  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      22  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      23  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      24  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+      31  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+      32  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      33  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      34  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      35  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+      42  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+      43  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      44  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      45  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      46  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+      53  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+      54  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      55  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      56  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      57  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+      64  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+      65  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      66  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      67  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      68  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+      75  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+      76  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      77  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      78  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      79  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+      86  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+      87  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      88  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      89  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      90  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+      97  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+      98  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+      99  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     100  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     101  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     108  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     109  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     110  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     111  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     112  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     119  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     120  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     121  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     122  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     123  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     130  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     131  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     132  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     133  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     134  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     141  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     142  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     143  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     144  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     145  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     152  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     153  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     154  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     155  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     156  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     163  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     164  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     165  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     166  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     167  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     174  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     175  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     176  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     177  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     178  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     185  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     186  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     187  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     188  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     189  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     196  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     197  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     198  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     199  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     200  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     207  |  1.2775e+01 | -4.9221e+01 |  0.0000e+00 |                                
+     208  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     209  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     210  | -0.0000e+00 | -4.7905e+01 |  0.0000e+00 |                                
+     211  | -0.0000e+00 | -4.9221e+01 |  0.0000e+00 |                                
+     218  |  6.3873e+00 | -2.8111e+01 |  0.0000e+00 |                                
+     219  | -0.0000e+00 | -3.0954e+01 |  0.0000e+00 |                                
+     220  | -0.0000e+00 | -3.0954e+01 |  0.0000e+00 |                                
+     221  | -0.0000e+00 | -3.0954e+01 |  0.0000e+00 |                                
+     222  | -0.0000e+00 | -2.8111e+01 |  0.0000e+00 |                                
+                                                                                     
+  Nodal Moments                                                                      
+     Node |     Mx      |     My      |     Mz      |                                
+             *** No concentrated Moments Exist ***                                   
+                                                                                     
+  Uniform Loads (Note: Refers to local coordinates)                                  
+    Element |     Wx      |     Wy      |     Wz      |                              
+             *** No Uniform Loads Exist ***                                          
+                                                                                     
+  Temperature Effects (Note: Refers to local coordinates)                            
+    Element | dT(centroid) | Tgradient(y') | Tgradient(z') | Thermal Coef |          
+             *** No Temperature Effects Defined ***                                  
+                                                                                     
+====================================                                                 
+End of Input for Structural Analysis                                                 
+====================================                                                 
+                                                                                     

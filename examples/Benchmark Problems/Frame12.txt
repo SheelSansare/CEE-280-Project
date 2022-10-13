@@ -1,0 +1,658 @@
+                                                                                     
+                                                                                     
+                                                                                     
+***********   MASTAN2 v5.1.21 (December 1, 2020)   ***********                       
+                                                                                     
+Time:  15:09:26      Date:  07/13/2021                                               
+                                                                                     
+Problem Title:   Frame 12 (Ziemian & Ziemian)                                        
+**************                                                                       
+                                                                                     
+=============================                                                        
+Input for Structural Analysis                                                        
+=============================                                                        
+                                                                                     
+General Information Categories:                                                      
+                                                                                     
+(i)   Number of Nodes = 111                                                          
+(ii)  Number of Elements = 120                                                       
+(iii) Number of Sections = 10                                                        
+(iv)  Number of Materials = 3                                                        
+(v)   Number of Supports = 3                                                         
+(vi)  Applied Loads                                                                  
+                                                                                     
+(i)   Node Information                                                               
+                                                                                     
+  Coordinates                                                                        
+     Node |      X      |      Y      |      Z      |                                
+       1  |  0.0000e+00 |  0.0000e+00 |  0.0000e+00 |                                
+       2  |  6.0000e+03 |  0.0000e+00 |  0.0000e+00 |                                
+       3  |  1.2000e+04 |  0.0000e+00 |  0.0000e+00 |                                
+       4  |  0.0000e+00 |  9.3750e+02 |  0.0000e+00 |                                
+       5  |  6.0000e+03 |  9.3750e+02 |  0.0000e+00 |                                
+       6  |  1.2000e+04 |  9.3750e+02 |  0.0000e+00 |                                
+       7  |  0.0000e+00 |  1.8750e+03 |  0.0000e+00 |                                
+       8  |  6.0000e+03 |  1.8750e+03 |  0.0000e+00 |                                
+       9  |  1.2000e+04 |  1.8750e+03 |  0.0000e+00 |                                
+      10  |  0.0000e+00 |  2.8125e+03 |  0.0000e+00 |                                
+      11  |  6.0000e+03 |  2.8125e+03 |  0.0000e+00 |                                
+      12  |  1.2000e+04 |  2.8125e+03 |  0.0000e+00 |                                
+      13  |  0.0000e+00 |  3.7500e+03 |  0.0000e+00 |                                
+      14  |  1.5000e+03 |  3.7500e+03 |  0.0000e+00 |                                
+      15  |  3.0000e+03 |  3.7500e+03 |  0.0000e+00 |                                
+      16  |  4.5000e+03 |  3.7500e+03 |  0.0000e+00 |                                
+      17  |  6.0000e+03 |  3.7500e+03 |  0.0000e+00 |                                
+      18  |  7.5000e+03 |  3.7500e+03 |  0.0000e+00 |                                
+      19  |  9.0000e+03 |  3.7500e+03 |  0.0000e+00 |                                
+      20  |  1.0500e+04 |  3.7500e+03 |  0.0000e+00 |                                
+      21  |  1.2000e+04 |  3.7500e+03 |  0.0000e+00 |                                
+      22  |  0.0000e+00 |  4.6875e+03 |  0.0000e+00 |                                
+      23  |  6.0000e+03 |  4.6875e+03 |  0.0000e+00 |                                
+      24  |  1.2000e+04 |  4.6875e+03 |  0.0000e+00 |                                
+      25  |  0.0000e+00 |  5.6250e+03 |  0.0000e+00 |                                
+      26  |  6.0000e+03 |  5.6250e+03 |  0.0000e+00 |                                
+      27  |  1.2000e+04 |  5.6250e+03 |  0.0000e+00 |                                
+      28  |  0.0000e+00 |  6.5625e+03 |  0.0000e+00 |                                
+      29  |  6.0000e+03 |  6.5625e+03 |  0.0000e+00 |                                
+      30  |  1.2000e+04 |  6.5625e+03 |  0.0000e+00 |                                
+      31  |  0.0000e+00 |  7.5000e+03 |  0.0000e+00 |                                
+      32  |  1.5000e+03 |  7.5000e+03 |  0.0000e+00 |                                
+      33  |  3.0000e+03 |  7.5000e+03 |  0.0000e+00 |                                
+      34  |  4.5000e+03 |  7.5000e+03 |  0.0000e+00 |                                
+      35  |  6.0000e+03 |  7.5000e+03 |  0.0000e+00 |                                
+      36  |  7.5000e+03 |  7.5000e+03 |  0.0000e+00 |                                
+      37  |  9.0000e+03 |  7.5000e+03 |  0.0000e+00 |                                
+      38  |  1.0500e+04 |  7.5000e+03 |  0.0000e+00 |                                
+      39  |  1.2000e+04 |  7.5000e+03 |  0.0000e+00 |                                
+      40  |  0.0000e+00 |  8.4375e+03 |  0.0000e+00 |                                
+      41  |  6.0000e+03 |  8.4375e+03 |  0.0000e+00 |                                
+      42  |  1.2000e+04 |  8.4375e+03 |  0.0000e+00 |                                
+      43  |  0.0000e+00 |  9.3750e+03 |  0.0000e+00 |                                
+      44  |  6.0000e+03 |  9.3750e+03 |  0.0000e+00 |                                
+      45  |  1.2000e+04 |  9.3750e+03 |  0.0000e+00 |                                
+      46  |  0.0000e+00 |  1.0312e+04 |  0.0000e+00 |                                
+      47  |  6.0000e+03 |  1.0312e+04 |  0.0000e+00 |                                
+      48  |  1.2000e+04 |  1.0312e+04 |  0.0000e+00 |                                
+      49  |  0.0000e+00 |  1.1250e+04 |  0.0000e+00 |                                
+      50  |  1.5000e+03 |  1.1250e+04 |  0.0000e+00 |                                
+      51  |  3.0000e+03 |  1.1250e+04 |  0.0000e+00 |                                
+      52  |  4.5000e+03 |  1.1250e+04 |  0.0000e+00 |                                
+      53  |  6.0000e+03 |  1.1250e+04 |  0.0000e+00 |                                
+      54  |  7.5000e+03 |  1.1250e+04 |  0.0000e+00 |                                
+      55  |  9.0000e+03 |  1.1250e+04 |  0.0000e+00 |                                
+      56  |  1.0500e+04 |  1.1250e+04 |  0.0000e+00 |                                
+      57  |  1.2000e+04 |  1.1250e+04 |  0.0000e+00 |                                
+      58  |  0.0000e+00 |  1.2188e+04 |  0.0000e+00 |                                
+      59  |  6.0000e+03 |  1.2188e+04 |  0.0000e+00 |                                
+      60  |  1.2000e+04 |  1.2188e+04 |  0.0000e+00 |                                
+      61  |  0.0000e+00 |  1.3125e+04 |  0.0000e+00 |                                
+      62  |  6.0000e+03 |  1.3125e+04 |  0.0000e+00 |                                
+      63  |  1.2000e+04 |  1.3125e+04 |  0.0000e+00 |                                
+      64  |  0.0000e+00 |  1.4062e+04 |  0.0000e+00 |                                
+      65  |  6.0000e+03 |  1.4062e+04 |  0.0000e+00 |                                
+      66  |  1.2000e+04 |  1.4062e+04 |  0.0000e+00 |                                
+      67  |  0.0000e+00 |  1.5000e+04 |  0.0000e+00 |                                
+      68  |  1.5000e+03 |  1.5000e+04 |  0.0000e+00 |                                
+      69  |  3.0000e+03 |  1.5000e+04 |  0.0000e+00 |                                
+      70  |  4.5000e+03 |  1.5000e+04 |  0.0000e+00 |                                
+      71  |  6.0000e+03 |  1.5000e+04 |  0.0000e+00 |                                
+      72  |  7.5000e+03 |  1.5000e+04 |  0.0000e+00 |                                
+      73  |  9.0000e+03 |  1.5000e+04 |  0.0000e+00 |                                
+      74  |  1.0500e+04 |  1.5000e+04 |  0.0000e+00 |                                
+      75  |  1.2000e+04 |  1.5000e+04 |  0.0000e+00 |                                
+      76  |  0.0000e+00 |  1.5938e+04 |  0.0000e+00 |                                
+      77  |  6.0000e+03 |  1.5938e+04 |  0.0000e+00 |                                
+      78  |  1.2000e+04 |  1.5938e+04 |  0.0000e+00 |                                
+      79  |  0.0000e+00 |  1.6875e+04 |  0.0000e+00 |                                
+      80  |  6.0000e+03 |  1.6875e+04 |  0.0000e+00 |                                
+      81  |  1.2000e+04 |  1.6875e+04 |  0.0000e+00 |                                
+      82  |  0.0000e+00 |  1.7812e+04 |  0.0000e+00 |                                
+      83  |  6.0000e+03 |  1.7812e+04 |  0.0000e+00 |                                
+      84  |  1.2000e+04 |  1.7812e+04 |  0.0000e+00 |                                
+      85  |  0.0000e+00 |  1.8750e+04 |  0.0000e+00 |                                
+      86  |  1.5000e+03 |  1.8750e+04 |  0.0000e+00 |                                
+      87  |  3.0000e+03 |  1.8750e+04 |  0.0000e+00 |                                
+      88  |  4.5000e+03 |  1.8750e+04 |  0.0000e+00 |                                
+      89  |  6.0000e+03 |  1.8750e+04 |  0.0000e+00 |                                
+      90  |  7.5000e+03 |  1.8750e+04 |  0.0000e+00 |                                
+      91  |  9.0000e+03 |  1.8750e+04 |  0.0000e+00 |                                
+      92  |  1.0500e+04 |  1.8750e+04 |  0.0000e+00 |                                
+      93  |  1.2000e+04 |  1.8750e+04 |  0.0000e+00 |                                
+      94  |  0.0000e+00 |  1.9688e+04 |  0.0000e+00 |                                
+      95  |  6.0000e+03 |  1.9688e+04 |  0.0000e+00 |                                
+      96  |  1.2000e+04 |  1.9688e+04 |  0.0000e+00 |                                
+      97  |  0.0000e+00 |  2.0625e+04 |  0.0000e+00 |                                
+      98  |  6.0000e+03 |  2.0625e+04 |  0.0000e+00 |                                
+      99  |  1.2000e+04 |  2.0625e+04 |  0.0000e+00 |                                
+     100  |  0.0000e+00 |  2.1562e+04 |  0.0000e+00 |                                
+     101  |  6.0000e+03 |  2.1562e+04 |  0.0000e+00 |                                
+     102  |  1.2000e+04 |  2.1562e+04 |  0.0000e+00 |                                
+     103  |  0.0000e+00 |  2.2500e+04 |  0.0000e+00 |                                
+     104  |  1.5000e+03 |  2.2500e+04 |  0.0000e+00 |                                
+     105  |  3.0000e+03 |  2.2500e+04 |  0.0000e+00 |                                
+     106  |  4.5000e+03 |  2.2500e+04 |  0.0000e+00 |                                
+     107  |  6.0000e+03 |  2.2500e+04 |  0.0000e+00 |                                
+     108  |  7.5000e+03 |  2.2500e+04 |  0.0000e+00 |                                
+     109  |  9.0000e+03 |  2.2500e+04 |  0.0000e+00 |                                
+     110  |  1.0500e+04 |  2.2500e+04 |  0.0000e+00 |                                
+     111  |  1.2000e+04 |  2.2500e+04 |  0.0000e+00 |                                
+                                                                                     
+  Fixities                                                                           
+     Node |    X   |    Y   |    Z   |  X Rot |  Y Rot |  Z Rot |                    
+       1  |  FIXED |  FIXED |  FREE  |  FREE  |  FREE  |  FIXED |                    
+       2  |  FIXED |  FIXED |  FREE  |  FREE  |  FREE  |  FIXED |                    
+       3  |  FIXED |  FIXED |  FREE  |  FREE  |  FREE  |  FIXED |                    
+       4  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       5  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       6  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       7  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       8  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       9  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      10  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      11  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      12  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      13  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      14  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      15  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      16  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      17  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      18  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      19  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      20  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      21  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      22  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      23  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      24  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      25  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      26  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      27  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      28  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      29  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      30  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      31  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      32  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      33  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      34  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      35  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      36  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      37  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      38  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      39  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      40  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      41  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      42  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      43  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      44  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      45  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      46  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      47  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      48  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      49  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      50  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      51  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      52  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      53  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      54  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      55  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      56  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      57  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      58  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      59  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      60  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      61  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      62  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      63  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      64  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      65  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      66  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      67  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      68  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      69  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      70  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      71  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      72  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      73  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      74  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      75  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      76  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      77  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      78  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      79  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      80  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      81  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      82  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      83  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      84  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      85  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      86  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      87  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      88  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      89  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      90  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      91  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      92  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      93  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      94  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      95  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      96  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      97  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      98  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      99  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     100  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     101  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     102  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     103  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     104  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     105  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     106  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     107  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     108  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     109  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     110  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+     111  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+                                                                                     
+(ii)  Element Information                                                            
+                                                                                     
+  Connectivity & Attributes                                                          
+    Element | Node i | Node j |   Length   |  Beta (deg)  | Section | Material |     
+       1    |    1   |    4   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+       2    |    4   |    7   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+       3    |    7   |   10   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+       4    |   10   |   13   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+       5    |    2   |    5   | 9.3750e+02 |  0.0000e+00  |    8    |    1     |     
+       6    |    5   |    8   | 9.3750e+02 |  0.0000e+00  |    8    |    1     |     
+       7    |    8   |   11   | 9.3750e+02 |  0.0000e+00  |    8    |    1     |     
+       8    |   11   |   17   | 9.3750e+02 |  0.0000e+00  |    8    |    1     |     
+       9    |    3   |    6   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      10    |    6   |    9   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      11    |    9   |   12   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      12    |   12   |   21   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      13    |   13   |   14   | 1.5000e+03 |  0.0000e+00  |    5    |    1     |     
+      14    |   14   |   15   | 1.5000e+03 |  0.0000e+00  |    5    |    1     |     
+      15    |   15   |   16   | 1.5000e+03 |  0.0000e+00  |    5    |    1     |     
+      16    |   16   |   17   | 1.5000e+03 |  0.0000e+00  |    5    |    1     |     
+      17    |   17   |   18   | 1.5000e+03 |  0.0000e+00  |    5    |    1     |     
+      18    |   18   |   19   | 1.5000e+03 |  0.0000e+00  |    5    |    1     |     
+      19    |   19   |   20   | 1.5000e+03 |  0.0000e+00  |    5    |    1     |     
+      20    |   20   |   21   | 1.5000e+03 |  0.0000e+00  |    5    |    1     |     
+      21    |   13   |   22   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      22    |   22   |   25   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      23    |   25   |   28   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      24    |   28   |   31   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      25    |   17   |   23   | 9.3750e+02 |  0.0000e+00  |    8    |    1     |     
+      26    |   23   |   26   | 9.3750e+02 |  0.0000e+00  |    8    |    1     |     
+      27    |   26   |   29   | 9.3750e+02 |  0.0000e+00  |    8    |    1     |     
+      28    |   29   |   35   | 9.3750e+02 |  0.0000e+00  |    8    |    1     |     
+      29    |   21   |   24   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      30    |   24   |   27   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      31    |   27   |   30   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      32    |   30   |   39   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      33    |   31   |   32   | 1.5000e+03 |  0.0000e+00  |    4    |    1     |     
+      34    |   32   |   33   | 1.5000e+03 |  0.0000e+00  |    4    |    1     |     
+      35    |   33   |   34   | 1.5000e+03 |  0.0000e+00  |    4    |    1     |     
+      36    |   34   |   35   | 1.5000e+03 |  0.0000e+00  |    4    |    1     |     
+      37    |   35   |   36   | 1.5000e+03 |  0.0000e+00  |    4    |    1     |     
+      38    |   36   |   37   | 1.5000e+03 |  0.0000e+00  |    4    |    1     |     
+      39    |   37   |   38   | 1.5000e+03 |  0.0000e+00  |    4    |    1     |     
+      40    |   38   |   39   | 1.5000e+03 |  0.0000e+00  |    4    |    1     |     
+      41    |   31   |   40   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      42    |   40   |   43   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      43    |   43   |   46   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      44    |   46   |   49   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      45    |   35   |   41   | 9.3750e+02 |  0.0000e+00  |    7    |    1     |     
+      46    |   41   |   44   | 9.3750e+02 |  0.0000e+00  |    7    |    1     |     
+      47    |   44   |   47   | 9.3750e+02 |  0.0000e+00  |    7    |    1     |     
+      48    |   47   |   53   | 9.3750e+02 |  0.0000e+00  |    7    |    1     |     
+      49    |   39   |   42   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      50    |   42   |   45   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      51    |   45   |   48   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      52    |   48   |   57   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      53    |   49   |   50   | 1.5000e+03 |  0.0000e+00  |    3    |    1     |     
+      54    |   50   |   51   | 1.5000e+03 |  0.0000e+00  |    3    |    1     |     
+      55    |   51   |   52   | 1.5000e+03 |  0.0000e+00  |    3    |    1     |     
+      56    |   52   |   53   | 1.5000e+03 |  0.0000e+00  |    3    |    1     |     
+      57    |   53   |   54   | 1.5000e+03 |  0.0000e+00  |    3    |    1     |     
+      58    |   54   |   55   | 1.5000e+03 |  0.0000e+00  |    3    |    1     |     
+      59    |   55   |   56   | 1.5000e+03 |  0.0000e+00  |    3    |    1     |     
+      60    |   56   |   57   | 1.5000e+03 |  0.0000e+00  |    3    |    1     |     
+      61    |   49   |   58   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      62    |   58   |   61   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      63    |   61   |   64   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      64    |   64   |   67   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      65    |   53   |   59   | 9.3750e+02 |  0.0000e+00  |    7    |    1     |     
+      66    |   59   |   62   | 9.3750e+02 |  0.0000e+00  |    7    |    1     |     
+      67    |   62   |   65   | 9.3750e+02 |  0.0000e+00  |    7    |    1     |     
+      68    |   65   |   71   | 9.3750e+02 |  0.0000e+00  |    7    |    1     |     
+      69    |   57   |   60   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      70    |   60   |   63   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      71    |   63   |   66   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      72    |   66   |   75   | 9.3750e+02 |  0.0000e+00  |   10    |    1     |     
+      73    |   67   |   68   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      74    |   68   |   69   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      75    |   69   |   70   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      76    |   70   |   71   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      77    |   71   |   72   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      78    |   72   |   73   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      79    |   73   |   74   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      80    |   74   |   75   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      81    |   67   |   76   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+      82    |   76   |   79   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+      83    |   79   |   82   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+      84    |   82   |   85   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+      85    |   71   |   77   | 9.3750e+02 |  0.0000e+00  |    6    |    1     |     
+      86    |   77   |   80   | 9.3750e+02 |  0.0000e+00  |    6    |    1     |     
+      87    |   80   |   83   | 9.3750e+02 |  0.0000e+00  |    6    |    1     |     
+      88    |   83   |   89   | 9.3750e+02 |  0.0000e+00  |    6    |    1     |     
+      89    |   75   |   78   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+      90    |   78   |   81   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+      91    |   81   |   84   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+      92    |   84   |   93   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+      93    |   85   |   86   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      94    |   86   |   87   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      95    |   87   |   88   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      96    |   88   |   89   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      97    |   89   |   90   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      98    |   90   |   91   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+      99    |   91   |   92   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+     100    |   92   |   93   | 1.5000e+03 |  0.0000e+00  |    2    |    1     |     
+     101    |   85   |   94   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+     102    |   94   |   97   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+     103    |   97   |  100   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+     104    |  100   |  103   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+     105    |   89   |   95   | 9.3750e+02 |  0.0000e+00  |    6    |    1     |     
+     106    |   95   |   98   | 9.3750e+02 |  0.0000e+00  |    6    |    1     |     
+     107    |   98   |  101   | 9.3750e+02 |  0.0000e+00  |    6    |    1     |     
+     108    |  101   |  107   | 9.3750e+02 |  0.0000e+00  |    6    |    1     |     
+     109    |   93   |   96   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+     110    |   96   |   99   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+     111    |   99   |  102   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+     112    |  102   |  111   | 9.3750e+02 |  0.0000e+00  |    9    |    1     |     
+     113    |  103   |  104   | 1.5000e+03 |  0.0000e+00  |    1    |    1     |     
+     114    |  104   |  105   | 1.5000e+03 |  0.0000e+00  |    1    |    1     |     
+     115    |  105   |  106   | 1.5000e+03 |  0.0000e+00  |    1    |    1     |     
+     116    |  106   |  107   | 1.5000e+03 |  0.0000e+00  |    1    |    1     |     
+     117    |  107   |  108   | 1.5000e+03 |  0.0000e+00  |    1    |    1     |     
+     118    |  108   |  109   | 1.5000e+03 |  0.0000e+00  |    1    |    1     |     
+     119    |  109   |  110   | 1.5000e+03 |  0.0000e+00  |    1    |    1     |     
+     120    |  110   |  111   | 1.5000e+03 |  0.0000e+00  |    1    |    1     |     
+                                                                                     
+  Connections                                                                        
+            |               Flexural Stiffness               ||||      Torsion      |
+            |          Node i        ||          Node j        || Warping Restraint |
+    Element |     kz     |     ky     |     kz     |     ky     |  Node i |  Node j |
+       1    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       2    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       3    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       4    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       5    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       6    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       7    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       8    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       9    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      10    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      11    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      12    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      13    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      14    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      15    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      16    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      17    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      18    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      19    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      20    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      21    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      22    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      23    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      24    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      25    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      26    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      27    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      28    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      29    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      30    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      31    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      32    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      33    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      34    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      35    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      36    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      37    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      38    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      39    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      40    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      41    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      42    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      43    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      44    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      45    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      46    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      47    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      48    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      49    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      50    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      51    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      52    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      53    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      54    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      55    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      56    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      57    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      58    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      59    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      60    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      61    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      62    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      63    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      64    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      65    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      66    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      67    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      68    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      69    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      70    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      71    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      72    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      73    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      74    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      75    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      76    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      77    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      78    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      79    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      80    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      81    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      82    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      83    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      84    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      85    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      86    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      87    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      88    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      89    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      90    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      91    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      92    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      93    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      94    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      95    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      96    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      97    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      98    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      99    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     100    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     101    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     102    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     103    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     104    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     105    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     106    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     107    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     108    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     109    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     110    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     111    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     112    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     113    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     114    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     115    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     116    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     117    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     118    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     119    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+     120    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+                                                                                     
+  Connections (cont.)                                                                
+            |                 Flexural Capacity                 |                    
+            |          Node i        ||          Node j         |                    
+    Element |     Mpz    |     Mpy    |     Mpz    |     Mpy    |                    
+                                                                                     
+(iii) Section Information                                                            
+                                                                                     
+  Part 1:  Properties                                                                
+    Number |    Area    |    Izz     |    Iyy     |     J      |     Cw     |        
+       1   | 3.9100e+03 | 3.8920e+07 | 2.8360e+06 | 1.2740e+06 | 3.6080e+10 |        
+       2   | 5.3800e+03 | 8.3560e+07 | 6.0380e+06 | 1.9750e+05 | 1.2426e+11 |        
+       3   | 6.2600e+03 | 1.1770e+08 | 7.8810e+06 | 2.7590e+05 | 1.9609e+11 |        
+       4   | 7.2700e+03 | 1.6270e+08 | 1.0430e+07 | 3.7080e+05 | 3.0937e+11 |        
+       5   | 8.4500e+03 | 2.3130e+08 | 1.3180e+07 | 5.0410e+05 | 4.8289e+11 |        
+       6   | 7.8100e+03 | 5.6960e+07 | 2.0030e+07 | 5.9590e+05 | 1.6706e+11 |        
+       7   | 1.0600e+04 | 1.1260e+08 | 3.9230e+07 | 1.0360e+06 | 4.7628e+11 |        
+       8   | 1.1800e+04 | 1.4920e+08 | 5.1350e+07 | 1.2570e+06 | 7.3628e+11 |        
+       9   | 5.4300e+03 | 2.4920e+07 | 8.8920e+06 | 3.1240e+05 | 4.6667e+10 |        
+      10   | 9.1000e+03 | 8.0910e+07 | 2.8430e+07 | 7.7020e+05 | 2.8951e+11 |        
+                                                                                     
+  Part 2:  Properties (cont.)                                                        
+    Number |    Ysc     |    Zsc     |   Betay    |   Betaz    |    Betaw   |        
+       1   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       2   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       3   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       4   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       5   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       6   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       7   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       8   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       9   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+      10   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+                                                                                     
+  Part 3:  Properties (cont.)                                                        
+    Number |    Zzz     |    Zyy     |    Ayy     |    Azz     | Name                
+       1   | 3.6700e+05 | 7.3900e+04 |    Inf     |    Inf     | IPE 240             
+       2   | 6.2800e+05 | 1.2520e+05 |    Inf     |    Inf     | IPE 300             
+       3   | 8.0400e+05 | 1.5370e+05 |    Inf     |    Inf     | IPE 330             
+       4   | 1.0190e+06 | 1.9110e+05 |    Inf     |    Inf     | IPE 360             
+       5   | 1.3070e+06 | 2.2900e+05 |    Inf     |    Inf     | IPE 400             
+       6   | 6.4300e+05 | 3.0580e+05 |    Inf     |    Inf     | HEB 200             
+       7   | 1.0530e+06 | 4.9840e+05 |    Inf     |    Inf     | HEB 240             
+       8   | 1.2830e+06 | 6.0220e+05 |    Inf     |    Inf     | HEB 260             
+       9   | 3.5400e+05 | 1.7000e+05 |    Inf     |    Inf     | HEB 160             
+      10   | 8.2700e+05 | 3.9390e+05 |    Inf     |    Inf     | HEB 220             
+                                                                                     
+  Part 4:  Yield Surface Maximum Values                                              
+    Number |   P/Py     |   Mz/Mpz   |   Mz/Mpy   |                                  
+       1   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       2   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       3   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       4   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       5   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       6   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       7   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       8   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       9   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+      10   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+                                                                                     
+(iv)  Material Information                                                           
+                                                                                     
+    Number |     E      |     v      |    Fy      |    Wt      | Name                
+       1   | 2.9000e+04 | 3.0000e-01 | 2.3500e-01 | 0.0000e+00 | Steel               
+       2   | 1.6400e+02 | 3.0000e-01 | 2.3500e-01 | 0.0000e+00 | Steel (DAM)         
+       3   | 1.8450e+02 | 3.0000e-01 | 2.1150e-01 | 0.0000e+00 | Steel (GMNIA)       
+                                                                                     
+(v)   Support Information                                                            
+                                                                                     
+  Prescribed Displacements                                                           
+     Node |      X      |      Y      |      Z      |                                
+       1  |  0.0000e+00 |  0.0000e+00 |    FREE     |                                
+       2  |  0.0000e+00 |  0.0000e+00 |    FREE     |                                
+       3  |  0.0000e+00 |  0.0000e+00 |    FREE     |                                
+                                                                                     
+  Prescribed Rotations                                                               
+     Node |    X Rot    |    Y Rot    |    Z Rot    |                                
+       1  |    FREE     |    FREE     |  0.0000e+00 |                                
+       2  |    FREE     |    FREE     |  0.0000e+00 |                                
+       3  |    FREE     |    FREE     |  0.0000e+00 |                                
+                                                                                     
+(vi)  Applied Load Information                                                       
+                                                                                     
+  Nodal Forces                                                                       
+     Node |     Px      |     Py      |     Pz      |                                
+      13  |  2.0604e+01 | -3.7125e+01 |  0.0000e+00 |                                
+      14  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      15  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      16  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      17  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      18  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      19  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      20  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      21  |  0.0000e+00 | -3.7125e+01 |  0.0000e+00 |                                
+      31  |  2.0604e+01 | -3.7125e+01 |  0.0000e+00 |                                
+      32  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      33  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      34  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      35  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      36  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      37  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      38  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      39  |  0.0000e+00 | -3.7125e+01 |  0.0000e+00 |                                
+      49  |  2.0604e+01 | -3.7125e+01 |  0.0000e+00 |                                
+      50  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      51  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      52  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      53  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      54  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      55  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      56  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      57  |  0.0000e+00 | -3.7125e+01 |  0.0000e+00 |                                
+      67  |  2.0604e+01 | -3.7125e+01 |  0.0000e+00 |                                
+      68  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      69  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      70  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      71  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      72  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      73  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      74  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      75  |  0.0000e+00 | -3.7125e+01 |  0.0000e+00 |                                
+      85  |  2.0604e+01 | -3.7125e+01 |  0.0000e+00 |                                
+      86  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      87  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      88  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      89  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      90  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      91  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      92  |  0.0000e+00 | -7.4251e+01 |  0.0000e+00 |                                
+      93  |  0.0000e+00 | -3.7125e+01 |  0.0000e+00 |                                
+     103  |  1.0316e+01 | -2.3969e+01 |  0.0000e+00 |                                
+     104  |  0.0000e+00 | -4.7938e+01 |  0.0000e+00 |                                
+     105  |  0.0000e+00 | -4.7938e+01 |  0.0000e+00 |                                
+     106  |  0.0000e+00 | -4.7938e+01 |  0.0000e+00 |                                
+     107  |  0.0000e+00 | -4.7938e+01 |  0.0000e+00 |                                
+     108  |  0.0000e+00 | -4.7938e+01 |  0.0000e+00 |                                
+     109  |  0.0000e+00 | -4.7938e+01 |  0.0000e+00 |                                
+     110  |  0.0000e+00 | -4.7938e+01 |  0.0000e+00 |                                
+     111  |  0.0000e+00 | -2.3969e+01 |  0.0000e+00 |                                
+                                                                                     
+  Nodal Moments                                                                      
+     Node |     Mx      |     My      |     Mz      |                                
+             *** No concentrated Moments Exist ***                                   
+                                                                                     
+  Uniform Loads (Note: Refers to local coordinates)                                  
+    Element |     Wx      |     Wy      |     Wz      |                              
+             *** No Uniform Loads Exist ***                                          
+                                                                                     
+  Temperature Effects (Note: Refers to local coordinates)                            
+    Element | dT(centroid) | Tgradient(y') | Tgradient(z') | Thermal Coef |          
+             *** No Temperature Effects Defined ***                                  
+                                                                                     
+====================================                                                 
+End of Input for Structural Analysis                                                 
+====================================                                                 
+                                                                                     

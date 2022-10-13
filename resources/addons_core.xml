@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addonCore>
+  <label>MASTAN2v5.1</label>
+  <version>5.1.26</version>
+  <type>app</type>
+  <packagedBy>(R2022a)</packagedBy>
+  <identifier>26a0e12c-48a7-465e-b637-3b58246e1610</identifier>
+  <summary>Note: When installing this software, you agree to the terms of the software license provided at www.mastan2.com</summary>
+  <description>Be sure to checkout the tutorial, textbook, and stability learning modules available at no cost at www.mastan2.com</description>
+  <createdBy name="Ron Ziemian, Bill McGuire, and Siwei Liu" email="www.mastan2.com"/>
+  <image>resources/screenshot.png</image>
+  <icons>
+    <icon tag="0">resources/icon_48.png</icon>
+    <icon tag="1">resources/icon_24.png</icon>
+    <icon tag="2">resources/icon_16.png</icon>
+  </icons>
+</addonCore>

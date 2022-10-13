@@ -1,0 +1,4 @@
+% User defined database. All databases are created when MASTAN2 starts.
+% Shape, D, B, tw, tf
+Z1	15.0	4	0.7	0.6
+Z2	15.0	6	0.7	0.7

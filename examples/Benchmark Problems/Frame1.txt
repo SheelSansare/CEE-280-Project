@@ -1,0 +1,160 @@
+                                                                                     
+                                                                                     
+                                                                                     
+***********   MASTAN2 v5.1.21 (December 1, 2020)   ***********                       
+                                                                                     
+Time:  18:05:43      Date:  07/12/2021                                               
+                                                                                     
+Problem Title:   Frame 1 (Ziemian & Ziemian)                                         
+**************                                                                       
+                                                                                     
+=============================                                                        
+Input for Structural Analysis                                                        
+=============================                                                        
+                                                                                     
+General Information Categories:                                                      
+                                                                                     
+(i)   Number of Nodes = 13                                                           
+(ii)  Number of Elements = 12                                                        
+(iii) Number of Sections = 2                                                         
+(iv)  Number of Materials = 3                                                        
+(v)   Number of Supports = 2                                                         
+(vi)  Applied Loads                                                                  
+                                                                                     
+(i)   Node Information                                                               
+                                                                                     
+  Coordinates                                                                        
+     Node |      X      |      Y      |      Z      |                                
+       1  |  0.0000e+00 |  0.0000e+00 |  0.0000e+00 |                                
+       2  |  3.6000e+02 |  0.0000e+00 |  0.0000e+00 |                                
+       3  |  0.0000e+00 |  4.5000e+01 |  0.0000e+00 |                                
+       4  |  3.6000e+02 |  4.5000e+01 |  0.0000e+00 |                                
+       5  |  0.0000e+00 |  9.0000e+01 |  0.0000e+00 |                                
+       6  |  3.6000e+02 |  9.0000e+01 |  0.0000e+00 |                                
+       7  |  0.0000e+00 |  1.3500e+02 |  0.0000e+00 |                                
+       8  |  3.6000e+02 |  1.3500e+02 |  0.0000e+00 |                                
+       9  |  0.0000e+00 |  1.8000e+02 |  0.0000e+00 |                                
+      10  |  9.0000e+01 |  1.8000e+02 |  0.0000e+00 |                                
+      11  |  1.8000e+02 |  1.8000e+02 |  0.0000e+00 |                                
+      12  |  2.7000e+02 |  1.8000e+02 |  0.0000e+00 |                                
+      13  |  3.6000e+02 |  1.8000e+02 |  0.0000e+00 |                                
+                                                                                     
+  Fixities                                                                           
+     Node |    X   |    Y   |    Z   |  X Rot |  Y Rot |  Z Rot |                    
+       1  |  FIXED |  FIXED |  FREE  |  FREE  |  FREE  |  FIXED |                    
+       2  |  FIXED |  FIXED |  FREE  |  FREE  |  FREE  |  FIXED |                    
+       3  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       4  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       5  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       6  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       7  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       8  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+       9  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      10  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      11  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      12  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+      13  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |  FREE  |                    
+                                                                                     
+(ii)  Element Information                                                            
+                                                                                     
+  Connectivity & Attributes                                                          
+    Element | Node i | Node j |   Length   |  Beta (deg)  | Section | Material |     
+       1    |    1   |    3   | 4.5000e+01 |  0.0000e+00  |    1    |    1     |     
+       2    |    3   |    5   | 4.5000e+01 |  0.0000e+00  |    1    |    1     |     
+       3    |    5   |    7   | 4.5000e+01 |  0.0000e+00  |    1    |    1     |     
+       4    |    7   |    9   | 4.5000e+01 |  0.0000e+00  |    1    |    1     |     
+       5    |    9   |   10   | 9.0000e+01 |  0.0000e+00  |    2    |    1     |     
+       6    |   10   |   11   | 9.0000e+01 |  0.0000e+00  |    2    |    1     |     
+       7    |   11   |   12   | 9.0000e+01 |  0.0000e+00  |    2    |    1     |     
+       8    |   12   |   13   | 9.0000e+01 |  0.0000e+00  |    2    |    1     |     
+       9    |    2   |    4   | 4.5000e+01 |  0.0000e+00  |    1    |    1     |     
+      10    |    4   |    6   | 4.5000e+01 |  0.0000e+00  |    1    |    1     |     
+      11    |    6   |    8   | 4.5000e+01 |  0.0000e+00  |    1    |    1     |     
+      12    |    8   |   13   | 4.5000e+01 |  0.0000e+00  |    1    |    1     |     
+                                                                                     
+  Connections                                                                        
+            |               Flexural Stiffness               ||||      Torsion      |
+            |          Node i        ||          Node j        || Warping Restraint |
+    Element |     kz     |     ky     |     kz     |     ky     |  Node i |  Node j |
+       1    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       2    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       3    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       4    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       5    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       6    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       7    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       8    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+       9    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      10    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      11    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+      12    |   Rigid    |   Rigid    |   Rigid    |   Rigid    |  Free   |  Free   |
+                                                                                     
+  Connections (cont.)                                                                
+            |                 Flexural Capacity                 |                    
+            |          Node i        ||          Node j         |                    
+    Element |     Mpz    |     Mpy    |     Mpz    |     Mpy    |                    
+                                                                                     
+(iii) Section Information                                                            
+                                                                                     
+  Part 1:  Properties                                                                
+    Number |    Area    |    Izz     |    Iyy     |     J      |     Cw     |        
+       1   | 2.0000e+01 | 7.2200e+02 | 1.2100e+02 | 3.0100e+00 | 5.3800e+03 |        
+       2   | 1.0300e+01 | 5.1000e+02 | 1.5300e+01 | 5.0600e-01 | 1.1400e+03 |        
+                                                                                     
+  Part 2:  Properties (cont.)                                                        
+    Number |    Ysc     |    Zsc     |   Betay    |   Betaz    |    Betaw   |        
+       1   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+       2   | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 | 0.0000e+00 |        
+                                                                                     
+  Part 3:  Properties (cont.)                                                        
+    Number |    Zzz     |    Zyy     |    Ayy     |    Azz     | Name                
+       1   | 1.1500e+02 | 3.6900e+01 |    Inf     |    Inf     | W14X68              
+       2   | 6.6500e+01 | 8.0600e+00 |    Inf     |    Inf     | W18X35              
+                                                                                     
+  Part 4:  Yield Surface Maximum Values                                              
+    Number |   P/Py     |   Mz/Mpz   |   Mz/Mpy   |                                  
+       1   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+       2   | 1.0000e+00 | 1.0000e+00 | 1.0000e+00 |                                  
+                                                                                     
+(iv)  Material Information                                                           
+                                                                                     
+    Number |     E      |     v      |    Fy      |    Wt      | Name                
+       1   | 2.9000e+04 | 3.0000e-01 | 3.6000e+01 | 0.0000e+00 | A36                 
+       2   | 2.9000e+04 | 3.0000e-01 | 3.6000e+01 | 0.0000e+00 | A36 (DAM)           
+       3   | 2.3200e+04 | 3.0000e-01 | 3.6000e+01 | 0.0000e+00 | A36 (DAM)           
+                                                                                     
+(v)   Support Information                                                            
+                                                                                     
+  Prescribed Displacements                                                           
+     Node |      X      |      Y      |      Z      |                                
+       1  |  0.0000e+00 |  0.0000e+00 |    FREE     |                                
+       2  |  0.0000e+00 |  0.0000e+00 |    FREE     |                                
+                                                                                     
+  Prescribed Rotations                                                               
+     Node |    X Rot    |    Y Rot    |    Z Rot    |                                
+       1  |    FREE     |    FREE     |  0.0000e+00 |                                
+       2  |    FREE     |    FREE     |  0.0000e+00 |                                
+                                                                                     
+(vi)  Applied Load Information                                                       
+                                                                                     
+  Nodal Forces                                                                       
+     Node |     Px      |     Py      |     Pz      |                                
+       9  |  3.4849e+01 | -3.4849e+02 |  0.0000e+00 |                                
+      13  |  0.0000e+00 | -3.4849e+02 |  0.0000e+00 |                                
+                                                                                     
+  Nodal Moments                                                                      
+     Node |     Mx      |     My      |     Mz      |                                
+             *** No concentrated Moments Exist ***                                   
+                                                                                     
+  Uniform Loads (Note: Refers to local coordinates)                                  
+    Element |     Wx      |     Wy      |     Wz      |                              
+             *** No Uniform Loads Exist ***                                          
+                                                                                     
+  Temperature Effects (Note: Refers to local coordinates)                            
+    Element | dT(centroid) | Tgradient(y') | Tgradient(z') | Thermal Coef |          
+             *** No Temperature Effects Defined ***                                  
+                                                                                     
+====================================                                                 
+End of Input for Structural Analysis                                                 
+====================================                                                 
+                                                                                     

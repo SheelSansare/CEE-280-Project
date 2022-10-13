@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toolset id="user_apps_toolset" template="false">
+   <tool app_file_path="./" handler_class="com.mathworks.appmanagement.desktop.ToolboxToolSetExtensionHandler" id="26a0e12c-48a7-465e-b637-3b58246e1610" label="MASTAN2v5.1" toolset_id="user_apps_toolset">
+      <callback>matlab.apputil.run('MASTAN2v51APP')</callback>
+      <summary>Note: When installing this software, you agree to the terms of the software license provided at www.mastan2.com</summary>
+      <description>Be sure to checkout the tutorial, textbook, and stability learning modules available at no cost at www.mastan2.com</description>
+      <parent_tool id="my_apps" toolset_id="apps_toolset"/>
+   </tool>
+</toolset>
