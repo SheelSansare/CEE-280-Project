@@ -1,4 +1,4 @@
-classdef XYZ_Node < handle
+classdef SSLN_Node < handle
 % Replace XYZ by your initials and rename the file accordingly before proceeding
 
 % Node class for a 3-dimensional framed structure
@@ -15,7 +15,7 @@ classdef XYZ_Node < handle
         %  Replace XYZ by your initials before proceeding
         %    Arguments
         %      node_coord:  3x1 vector containing the x, y, and z coordinates of the node
-        function self = XYZ_Node(node_coord)
+        function self = SSLN_Node(node_coord)
             self.node_coord = node_coord;
         end
         

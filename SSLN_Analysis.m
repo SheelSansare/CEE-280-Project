@@ -1,4 +1,4 @@
-classdef XYZ_Analysis < handle
+classdef SSLN_Analysis < handle
 % Replace XYZ by your initials and rename the file accordingly before proceeding
 
 % Analysis class for a 3-dimensional framed structure
@@ -12,7 +12,7 @@ classdef XYZ_Analysis < handle
     methods (Access = public)
         %% Constructor
         %  Replace XYZ by your initials before proceeding
-        function self = XYZ_Analysis()
+        function self = SSLN_Analysis()
             
         end
         
