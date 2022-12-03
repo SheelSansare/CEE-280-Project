@@ -1,8 +1,8 @@
-function [DEFL,REACT,ELE_FOR,AFLAG] = ud_3d1el(...
+ function [DEFL,REACT,ELE_FOR,AFLAG] = ud_3d1el(...
 		nnodes,coord,concen,fixity,nele,ends,A,Izz,Iyy,J,Cw,IsSym,...
         Ysc,Zsc,Betay,Betaz,Betaw,Zzz,Zyy,Ayy,Azz,...
 		E,v,Fy,YldSurf,Wt,webdir,beta_ang,w,thermal,truss,anatype);
-
+tic
 % Function input modified on 10-4-2022 by NR to reflect the new input given
 % by updated software capabilities.
 
@@ -219,13 +219,25 @@ function [DEFL,REACT,ELE_FOR,AFLAG] = ud_3d1el(...
 %       SSLN_Node
 % 
 %   Your code must replace these two lines of code below... Do this at end
+
+analysis = SSLN_Analysis(nnodes,coord,nele,A,Izz,Iyy,J,Ayy,Azz,E,v,webdir,w,ends);
+RunAnalysis(analysis, fixity, nnodes, concen);
+[AFLAG, DEFL, REACT, ELE_FOR] = GetMastan2Returns(analysis);
+
+% disp(fixity)
 % disp(webdir)
 % disp("hello")
 % disp(nele)
-DEFL=[]; REACT=[]; ELE_FOR=[];
-AFLAG = inf;
+% disp(concen)
+% disp(nnodes)
+% disp(coord)
+% disp(nele)
+% disp(concen)
+% disp(w)
+% DEFL=[]; REACT=[]; ELE_FOR=[];
+% AFLAG = inf;
 
-%% Diagnostic tools: Instructions
+% Diagnostic tools: Instructions
 
 %   To use the diagnostic tools:
 %       1. Ensure that the following files are in Matlab's path:
@@ -237,66 +249,66 @@ AFLAG = inf;
 %          analysis in the "Diagnostic tools: Preferences" section below
 %       4. Uncomment the "Diagnostic tools: Code" section below the preferences section
 
-%% Diagnostic tools: Preferences
-
-% Pref 1: Element numbers (row or column vector)
-%         For which elements should data be displayed? If set to [-1], data will be dislayed for all
-%         elements. If set to [], data will be not be displayed for any elements.
-disp_elements = [1];
-
-% Pref 2: Element data (row or column vector)
-%         Which data should be displayed for the selected elements from pref 1? Options:
-%             1. Length
-%             2. Coordinate transformation matrix
-%             3. Elastic stiffness matrix in local coordinates
-%             4. Elastic stiffness matrix in global coordinates
-%             5. Fixed end force vector in local coordinates
-%             6. Fixed end force vector in global coordinates
-%             7. Element displacement vector in global coordinates
-%             8. Element displacement vector in local coordinates
-%             9. Recovered internal force vector in local coordinates
-%         If set to [], no element data will be displayed.
-disp_element_data = [1 2 3 4];
-
-% Pref 3: Node numbers (row or column vector)
-%         For which nodes should data be displayed? If set to [-1], data will be dislayed for all nodes.
-%         If set to [], data will be not be displayed for any nodes.
-disp_nodes = [];
-
-% Pref 4: Node data (row or column vector)
-%         Which data should be displayed for the selected nodes from pref 4? Options:
-%             1. Deflections
-%             2. Reactions
-%         If set to [], no nodal data will be displayed.
-disp_node_data = [];
-
-% Pref 5: Global arrays (row or column vector)
-%         Which global arrays should be displayed? Options:
-%             1. Numbers of free degrees of freedom
-%             2. Numbers of degrees of freedom with prescribed displacements
-%             3. Numbers of fixed degrees of freedom numbers
-%             4. Global structure K matrix
-%             5. Kff matrix
-%             6. Pf: vector of concentrated nodal loads at free degrees of freedom
-%             7. Feff: vector of fixed end forces at free degrees of freedom
-%             8. delf: vector of computed displacements at free degrees of freedom
-disp_global_arrays = [1 3];
-
-% Pref 6: Error vector (true/false)
-%         Display the difference between the back-calculated and original Pf vectors?
-disp_error = false;
-
-% Diagnostic tools: Code
-
-% Instantiate an object of the Analysis class
-analysis = RC_Analysis(nnodes, coord, fixity, concen, nele, ends, A, Ayy, Azz, Iyy, Izz, J, E, v, ...
-        webdir, w, truss);
-
-% Run the 1st order analysis
-analysis.RunAnalysis(disp_elements, disp_element_data, disp_nodes, disp_node_data, disp_global_arrays, ...
-        disp_error);
-
-% % Extract the matrices to be returned to Mastan2
-[DEFL, REACT, ELE_FOR, AFLAG] = analysis.GetMastan2Returns();
-
+% %% Diagnostic tools: Preferences
+% 
+% % Pref 1: Element numbers (row or column vector)
+% %         For which elements should data be displayed? If set to [-1], data will be dislayed for all
+% %         elements. If set to [], data will be not be displayed for any elements.
+% disp_elements = [];
+% 
+% % Pref 2: Element data (row or column vector)
+% %         Which data should be displayed for the selected elements from pref 1? Options:
+% %             1. Length
+% %             2. Coordinate transformation matrix
+% %             3. Elastic stiffness matrix in local coordinates
+% %             4. Elastic stiffness matrix in global coordinates
+% %             5. Fixed end force vector in local coordinates
+% %             6. Fixed end force vector in global coordinates
+% %             7. Element displacement vector in global coordinates
+% %             8. Element displacement vector in local coordinates
+% %             9. Recovered internal force vector in local coordinates
+% %         If set to [], no element data will be displayed.
+% disp_element_data = [9];
+% 
+% % Pref 3: Node numbers (row or column vector)
+% %         For which nodes should data be displayed? If set to [-1], data will be dislayed for all nodes.
+% %         If set to [], data will be not be displayed for any nodes.
+% disp_nodes = [];
+% 
+% % Pref 4: Node data (row or column vector)
+% %         Which data should be displayed for the selected nodes from pref 4? Options:
+% %             1. Deflections
+% %             2. Reactions
+% %         If set to [], no nodal data will be displayed.
+% disp_node_data = [1 2];
+% 
+% % Pref 5: Global arrays (row or column vector)
+% %         Which global arrays should be displayed? Options:
+% %             1. Numbers of free degrees of freedom
+% %             2. Numbers of degrees of freedom with prescribed displacements
+% %             3. Numbers of fixed degrees of freedom numbers
+% %             4. Global structure K matrix
+% %             5. Kff matrix
+% %             6. Pf: vector of concentrated nodal loads at free degrees of freedom
+% %             7. Feff: vector of fixed end forces at free degrees of freedom
+% %             8. delf: vector of computed displacements at free degrees of freedom
+% disp_global_arrays = [5 6 7 8];
+% 
+% % Pref 6: Error vector (true/false)
+% %         Display the difference between the back-calculated and original Pf vectors?
+% disp_error = false;
+% 
+% % Diagnostic tools: Code
+% 
+% % Instantiate an object of the Analysis class
+% analysis = RC_Analysis(nnodes, coord, fixity, concen, nele, ends, A, Ayy, Azz, Iyy, Izz, J, E, v, ...
+%         webdir, w, truss);
+% 
+% % Run the 1st order analysis
+% analysis.RunAnalysis(disp_elements, disp_element_data, disp_nodes, disp_node_data, disp_global_arrays, ...
+%         disp_error);
+% 
+% % % Extract the matrices to be returned to Mastan2
+% [DEFL, REACT, ELE_FOR, AFLAG] = analysis.GetMastan2Returns();
+toc
 end

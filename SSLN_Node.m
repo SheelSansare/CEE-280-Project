@@ -1,33 +1,44 @@
 classdef SSLN_Node < handle
-% Replace XYZ by your initials and rename the file accordingly before proceeding
 
 % Node class for a 3-dimensional framed structure
     
-    % Private properties go here
+    % Private properties 
     properties (Access = private)
-        % 3x1 vector containing the x, y, and z coordinates of the node
         node_coord
+        
+        dofs
     end
     
-    % Public methods go here
+    % Public methods 
     methods (Access = public)
         %% Constructor
-        %  Replace XYZ by your initials before proceeding
-        %    Arguments
-        %      node_coord:  3x1 vector containing the x, y, and z coordinates of the node
-        function self = SSLN_Node(node_coord)
+        function self = SSLN_Node(node_coord, node_num)
             self.node_coord = node_coord;
+            AssignDOF(self, node_num);
         end
         
-        %% Get Node Coordinates
-        %  Return "node_coord"
+        %% Getter Node Coordinates
         function node_coord = GetNodeCoord(self)
             node_coord = self.node_coord;
         end
+        
+        %% Getter for Node Degrees of Freedom
+        function node_dofs = GetNodeDofs(self)
+            node_dofs = self.dofs;
+        end
     end
     
-    % Private methods go here
+    % Private methods
     methods (Access = private)
-        
+        %% Assign Degrees of Freedom to Node
+        function AssignDOF(self, node_num)
+            %creates empty vector
+            self.dofs = NaN(6,1);
+            index = 5;
+            for i = 1:6
+                self.dofs(i, 1) = node_num*6 - index;
+                index = index - 1;
+            end
+        end
     end
 end
