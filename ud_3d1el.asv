@@ -217,14 +217,9 @@ tic
     %dofs
     %Properties: node_coord, dofs
 %Element Class:
-    %Creates element objects that stores and computes element properties
-    %such as length, element stiffness matrix, and fixed end forces for all
-    %elements in the structure
+    %Creates element objects that store properties fo
     %Properties: ele_dofs, GAMMA, k_local, k_global, local_FEF, global_FEF
 %Analysis Class:
-    %Creates an analysis object that stores and computes all global 
-    %structure properties, creates all node and element objects, and
-    %computes the structure displacements, reactions, and element forces
     %Properties: node_vector, element_vector, AFLAG, DEFL, REACT, ELE_FOR
     
 analysis = SSLN_Analysis(nnodes,coord,nele,A,Izz,Iyy,J,Ayy,Azz,E,v,webdir,w,ends);

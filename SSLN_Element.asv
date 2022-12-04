@@ -5,6 +5,7 @@ classdef SSLN_Element < handle
     % Private properties 
     properties (Access = private)
         ele_dofs
+        element_length
         GAMMA
         k_local
         k_global
@@ -16,10 +17,10 @@ classdef SSLN_Element < handle
     methods (Access = public)
         %% Constructor
         function self = SSLN_Element(element_nodes,E,v,A,Ayy,Azz,Izz,Iyy,webdir,J, w)
-            element_length = ComputeLength(self, element_nodes);
-            ComputeTransformationMatrix(self, webdir, element_nodes, element_length);
-            ComputeElasticStiffnessMatrix(self, E,v,A,Ayy,Azz,Izz,Iyy,J, element_length);
-            ComputeFixedEndForces(self, w, element_length);
+            ComputeLength(element_nodes);
+            ComputeTransformationMatrix(self, webdir, element_nodes);
+            ComputeElasticStiffnessMatrix(self, E,v,A,Ayy,Azz,Izz,Iyy,J, self.element_length);
+            ComputeFixedEndForces(self, w, self.element_length);
             RetrieveDOFS(self, element_nodes);
         end
         
@@ -56,12 +57,12 @@ classdef SSLN_Element < handle
             self.ele_dofs = [i_dofs; j_dofs];
         end
         %% Compute Element's Length
-        function element_length = ComputeLength(self, element_nodes)
+        function ComputeLength(self, element_nodes)
             node_i = element_nodes(1);
             node_j = element_nodes(2);
             i_coords = GetNodeCoord(node_i);
             j_coords = GetNodeCoord(node_j);
-            element_length = sqrt((j_coords(1) - i_coords(1))^2 + ...
+            self.element_length = sqrt((j_coords(1) - i_coords(1))^2 + ...
                 (j_coords(2) - i_coords(2))^2 + (j_coords(3) - i_coords(3))^2);
         end
         
@@ -89,7 +90,7 @@ classdef SSLN_Element < handle
             G = E/2/(1+v);
             phi_y = 12*E*Izz/G/Ayy/element_length^2;
             phi_z = 12*E*Iyy/G/Azz/element_length^2;
-            a = A / element_length;
+            a = A / self.element_length;
             b = 12 * Izz / (element_length^3) / (1+phi_y);
             c = 6 * Izz / (element_length^2) / (1+phi_y);
             d = 12 * Iyy / (element_length^3) / (1+phi_z);

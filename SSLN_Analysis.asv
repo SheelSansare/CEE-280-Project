@@ -6,6 +6,8 @@ classdef SSLN_Analysis < handle
     properties (Access = private)
         node_vector
         element_vector
+        global_concen
+        global_fef
         AFLAG
         DEFL
         REACT
@@ -23,16 +25,16 @@ classdef SSLN_Analysis < handle
         %% Run the analysis
         function RunAnalysis(self, fixity, nnodes, concen)
             K = CreateStiffnessMatrix(self, nnodes);
-            [freeDOFS, fixedDOFS, dispDOFS] = ClassifyDOFS(self, fixity);
+            [freeDOFS, fixedDOFS, dispDOFS] = ClassifyDOFS(fixity);
             [ff, fn, fs, feff, fefn, fefs] = CreateLoadVector(self, nnodes, concen, freeDOFS, fixedDOFS, dispDOFS);
-            [kff, kfn, kfs, knf, knn, kns, ksf, ksn, kss] = ComputeStiffnessSubMatrices(self, K, freeDOFS, fixedDOFS, dispDOFS);
+            [kff, kfn, kfs, knf, knn, kns, ksf, ksn, kss] = ComputeStiffnessSubMatrices(K, freeDOFS, fixedDOFS, dispDOFS);
             CheckKffMatrix(self, kff);
             if self.AFLAG == 0
-                self.DEFL = 0;
+                self.DELF = 0;
                 self.REACT = 0;
                 self.ELE_FOR = 0;
             else
-                [self.DEFL, self.REACT] = ComputeDisplacementsReactions(self, kff, ff, feff, fefn, fefs, kfn, ksf, ksn, knn, nnodes, freeDOFS, fixedDOFS, dispDOFS, fixity);
+                [self.DEFL, self.REACT] = ComputeDisplacementsReactions(kff, ff, feff, fefs, kfn, ksf, ksn, nnodes, freeDOFS, fixedDOFS, dispDOFS, fixity);
                 self.ELE_FOR = RecoverElementForces(self);
                 ComputeError(self, kff, kfn, ff, feff, freeDOFS, dispDOFS);
             end
@@ -99,15 +101,15 @@ classdef SSLN_Analysis < handle
             for i = 1:length(self.element_vector)
                 element_fefs = GetGlobalFEF(self.element_vector(i));
                 dofs = GetDOFS(self.element_vector(i));
-                global_fef(dofs) = global_fef(dofs) + element_fefs;
+                self.global_fef(dofs) = self.global_fef(dofs) + element_fefs;
             end
             feff = global_fef(freeDOFS);
-            fefn = global_fef(dispDOFS);
-            fefs = global_fef(fixedDOFS);
+            fefn = self.global_fef(dispDOFS);
+            fefs = self.global_fef(fixedDOFS);
         end
         
         %% Seperate and Store Degrees of Freedom
-        function [freeDOFS, fixedDOFS, dispDOFS] = ClassifyDOFS(self, fixity)
+        function [freeDOFS, fixedDOFS, dispDOFS] = ClassifyDOFS(fixity)
             fix_t = transpose(fixity);
             freeDOFS = find(isnan(fix_t));
             fixedDOFS = find(fix_t == 0);
@@ -115,7 +117,7 @@ classdef SSLN_Analysis < handle
         end
         
         %% Compute Stiffness Submatrices
-        function [kff, kfn, kfs, knf, knn, kns, ksf, ksn, kss] = ComputeStiffnessSubMatrices(self, K, freeDOFS, fixedDOFS, dispDOFS)
+        function [kff, kfn, kfs, knf, knn, kns, ksf, ksn, kss] = ComputeStiffnessSubMatrices(K, freeDOFS, fixedDOFS, dispDOFS)
             kff = K(freeDOFS, freeDOFS);
             kfn = K(freeDOFS, dispDOFS);
             kfs = K(freeDOFS, fixedDOFS);
@@ -138,24 +140,21 @@ classdef SSLN_Analysis < handle
         end
         
         %% Compute Displacements Reactions
-        function [DEFL, REACT] = ComputeDisplacementsReactions(self, kff, ff, feff, fefn, fefs, kfn, ksf, ksn, knn, nnodes, freeDOFS, fixedDOFS, dispDOFS, fixity)
+        function [DEFL, REACT] = ComputeDisplacementsReactions(kff, ff, feff, fefs, kfn, ksf, ksn, nnodes, freeDOFS, fixedDOFS, dispDOFS, fixity)
             fix_t = transpose(fixity);
             %disp deltas
             un = fix_t(dispDOFS);
             %free deltas
             uf = kff\((ff-feff) - kfn*un); % freexdisp * disp = free
             %reactions
-            ps = ksf*uf + ksn*un + fefs;
-            %reactions at prescribed DOFS
-            pn = (transpose(kfn)*uf) + (knn*un) + fefn;
+            ps = ksf*uf + ksn*un;
             %empty matrix of zeros
             DEFL = zeros(6,nnodes);
             DEFL(freeDOFS) = uf;
             DEFL(dispDOFS) = un;
             DEFL = transpose(DEFL);
             REACT = zeros(6,nnodes);
-            REACT(fixedDOFS) = ps;
-            REACT(dispDOFS) = pn;
+            REACT(fixedDOFS) = ps + fefs;
             REACT = transpose(REACT); %might need to add reactions at disp dofs?
             disp("Displacements at free DOFS:")
             disp(uf)

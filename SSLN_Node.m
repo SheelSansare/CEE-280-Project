@@ -5,7 +5,6 @@ classdef SSLN_Node < handle
     % Private properties 
     properties (Access = private)
         node_coord
-        
         dofs
     end
     
